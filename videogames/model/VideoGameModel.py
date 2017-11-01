@@ -1,6 +1,8 @@
 class VideoGameModel(object):
     ONE_MILLION = 10**6 # 10^6
     def __init__(self,row):
+
+
         self.rank = row["Rank"]
         self.name = row["Name"]
         self.platform = row["Platform"]

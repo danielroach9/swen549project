@@ -27,7 +27,6 @@ def closeConnection(exception):
     db = getattr(g, '_database', None)
     if db is not None:
         db.close()
-        print("DB closed") #FOR DEBUGGING
     elif exception is not None:
         raise Exception("Database instance is empty")
 
