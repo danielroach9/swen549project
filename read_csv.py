@@ -1,7 +1,20 @@
+"""
+    Script that reads in data from the csv files and loads them into the database
+
+    Date - 11/2/17
+    Author - Philip Bedward
+"""
 import pandas as pd
-from videogames.dao.video_game_sales_dao import VideoGameSalesDAO
+from dao.video_game_sales_dao import VideoGameSalesDAO
+from dao.ign_review_dao import IGNReviewDAO
+
 
 def readVideoGames():
+    """
+    Reads the video games csv data into its corresponding database table
+    :return:
+    """
+    # TODO: Should take command line input in future
     csv = pd.read_csv("sample data/Sample Video Game Sales.csv")
     maxRank = csv["Rank"].max()
 
@@ -21,16 +34,53 @@ def readVideoGames():
         otherSales = float(frame["Other_Sales"])
         globalSales = float(frame["Global_Sales"])
 
+        # TODO: when scaling up, find out to perform batch SELECT and INSERT using execute many
         attrs = (rank, name, platform, year, genre, publisher, naSales, euSales, jpSales, otherSales, globalSales)
         exists = vgDAO.select( (rank,) ) != None
 
         if not exists:
-
             vgDAO.insert( attrs )
 
+def readIGNReviews():
+    """
+    Reads the ign review csv data into its corresponding database table
+    :return:
+    """
+    # TODO: Should take command line input in future
+    csv = pd.read_csv("sample data/Sample IGN Reviews.csv")
+    count = len(csv.index)
 
-    
+    ignDAO = IGNReviewDAO()
+    for i in range(count):
 
+        frame = csv.loc[i]
+        scorePhrase = str(frame["score_phrase"])
+        title = str(frame["title"])
+        url = str(frame["url"])
+        platform = str(frame["platform"])
+        score = int(frame["score"])
+        genre = str(frame["genre"])
+        editorsChoice = bool(frame["editors_choice"])
+        year = int(frame["release_year"])
+        month = int(frame["release_month"])
+        day = int(frame["release_day"])
+
+        # TODO: when scaling up, find out how to perform batch SELECT and INSERT this using execute many
+        attrs = (i , scorePhrase, title, url, platform, score, genre, editorsChoice, year, month, day )
+        exists = ignDAO.select( (i,) ) != None
+
+        if not exists:
+            ignDAO.insert( attrs )
+
+
+
+def read():
+    """
+    read in both CSVs
+    :return:
+    """
+    readVideoGames()
+    readIGNReviews()
 
 
 

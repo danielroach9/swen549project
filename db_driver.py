@@ -1,3 +1,9 @@
+"""
+    File that contains methods for setting up and closing the connection to the database
+
+    Date - 11/2/17
+    Author - Philip Bedward
+"""
 import sqlite3
 from flask import g
 
@@ -12,6 +18,7 @@ SCHEMAS = [
 
 def getDB():
     """
+    Retrieves the database connection
     :return: The database instance
     """
     db = getattr(g, '_database', None)
@@ -24,15 +31,24 @@ def getDB():
 
 @APP.teardown_appcontext
 def closeConnection(exception):
+    """
+    Closes down the connection when the app stops running
+    :param exception:
+    :return:
+    """
     db = getattr(g, '_database', None)
     if db is not None:
         db.close()
     elif exception is not None:
-        raise Exception("Database instance is empty")
+        raise Exception("Database instance is empty - ",exception)
 
 
 
 def initializeDB():
+    """
+    Initialize the database with sql scripts
+    :return:
+    """
     with APP.app_context():
         db = getDB()
         count = 0
