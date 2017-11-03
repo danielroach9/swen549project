@@ -29,7 +29,7 @@ class IGNReviewDAO(DAO):
         self.selectAllQuery = "SELECT * FROM ign_reviews"
         self.selectQuery = "SELECT * FROM ign_reviews WHERE ID=?"
 
-        self.updateQuery = "UPDATE ign_reviews SET ?=? WHERE ID=?"
+        self.updateQuery = "UPDATE ign_reviews SET {props} WHERE ID=?"
         self.deleteQuery = "DELETE FROM ign_reviews where ID=?"
 
 
@@ -43,7 +43,7 @@ class IGNReviewDAO(DAO):
         return super().select(args, self.createIGNReview)
 
 
-    def insert(self, args):
+    def insert(self,args):
         self.errMsg = "Failed trying to perform INSERT query for Video Game Sales - "
         return super().insert(args)
 
@@ -51,9 +51,12 @@ class IGNReviewDAO(DAO):
         self.errMsg = "Failed trying to perform DELETE query for Video Game Sales - "
         return super().delete(args)
 
-    def update(self, args):
+    def update(self,  args,props):
+        sep = "=? "
+        propertiesStr = (sep.join(props) + sep)
+        self.updateQuery =  self.updateQuery.format(props=propertiesStr)
+        print(self.updateQuery)
         self.errMsg = "Failed trying to perform UPDATE query for Video Game Sales - "
-
         return super().update(args)
 
     def query( self, query, args=(), select=False, commit=False, eMsg="" ):

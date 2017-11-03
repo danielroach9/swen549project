@@ -57,3 +57,6 @@ class IGNReviewModel:
 
     def getReleaseDay(self):
         return self.releaseDay
+
+    def getArgs(self):
+        return ( self.id, self.scorePhrase, self.title, self.url, self.platform, self.score, self.genre, self.editorsChoice, self.releaseYear, self.releaseMonth, self.releaseDay)

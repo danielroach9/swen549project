@@ -51,6 +51,7 @@ def readIGNReviews():
     count = len(csv.index)
 
     ignDAO = IGNReviewDAO()
+    convertToBool = lambda x: False if x =="N" else True
     for i in range(count):
 
         frame = csv.loc[i]
@@ -60,7 +61,7 @@ def readIGNReviews():
         platform = str(frame["platform"])
         score = int(frame["score"])
         genre = str(frame["genre"])
-        editorsChoice = bool(frame["editors_choice"])
+        editorsChoice = convertToBool(frame["editors_choice"])
         year = int(frame["release_year"])
         month = int(frame["release_month"])
         day = int(frame["release_day"])
