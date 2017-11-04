@@ -23,7 +23,7 @@ class IGNReviewDAO(DAO):
 
         ### DEFINE CRUD QUERIES ###
 
-        self.insertQuery = "INSERT INTO ign_reviews " \
+        self.insertQuery = "INSERT OR IGNORE INTO ign_reviews " \
                            "VALUES ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ? )"
 
         self.selectAllQuery = "SELECT * FROM ign_reviews"
@@ -51,13 +51,9 @@ class IGNReviewDAO(DAO):
         self.errMsg = "Failed trying to perform DELETE query for Video Game Sales - "
         return super().delete(args)
 
-    def update(self,  args,props):
-        sep = "=? "
-        propertiesStr = (sep.join(props) + sep)
-        self.updateQuery =  self.updateQuery.format(props=propertiesStr)
-        print(self.updateQuery)
+    def update(self, args, props ):
         self.errMsg = "Failed trying to perform UPDATE query for Video Game Sales - "
-        return super().update(args)
+        return super().update(args,props)
 
     def query( self, query, args=(), select=False, commit=False, eMsg="" ):
         return super().query(query, args, select, commit, eMsg)

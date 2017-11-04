@@ -55,11 +55,7 @@ class DAO:
         :return: a boolean whether or not the value was inserted or not
         """
         rowCount = self.query(self.insertQuery, args,  eMsg=self.errMsg, commit=True)
-        didInsert = rowCount == self.lastRowCount + 1
-
-        if didInsert:
-            self.lastRowCount = rowCount
-        return didInsert
+        return rowCount == 1
 
 
     def delete(self, args):
@@ -70,25 +66,29 @@ class DAO:
         """
         return self.query(self.deleteQuery, args, eMsg=self.errMsg, commit=True)
 
-    def update(self, args):
+    def update(self, args, props):
         """
         Select one row from a given database table (table defined by query in child class)
         :param args: tuple containing the values and the primary key to update in the
         table
         :return: a boolean whether or not the value was inserted or not
         """
+        sep = "=? "
+        propertiesStr = (sep.join(props) + sep)
+        self.updateQuery = self.updateQuery.format(props=propertiesStr)
+
         rowCount = self.query(self.updateQuery, args, eMsg=self.errMsg, commit=True)
         return rowCount == 1
 
     def query(self, query, args=(), select=False, commit=False, eMsg=""):
         """
-
+        Execute a given query on a database table.
         :param query: the query to be executed
         :param args: the arguments to pass into each statement
         :param select: whether it's a select clause or not
-        :param commit: whether we want to commit changes to the database or not
-        :param eMsg: the error message to print
-        :return: return either row data or the rowcount for an update
+        :param commit: whether we want to save the modifications to the db or not
+        :param eMsg:  the error message to print
+        :return:
         """
         with APP.app_context():
             db = getDB()
@@ -102,6 +102,7 @@ class DAO:
                     result = cursor.rowcount
 
                 if commit:
+
                     db.commit()
 
                 cursor.close()

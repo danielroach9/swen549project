@@ -25,16 +25,16 @@ class VideoGameSalesDAO(DAO):
         self.selectAllQuery = "SELECT * FROM video_game_sales"
         self.selectQuery = "SELECT * FROM video_game_sales WHERE Rank=?"
 
-        self.insertQuery = "INSERT INTO video_game_sales " \
+        self.insertQuery = "INSERT OR IGNORE INTO video_game_sales " \
                       "VALUES ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ? )"
         self.deleteQuery = "DELETE FROM video_game_sales WHERE Rank=?"
-        self.updateQuery = "UPDATE video_game_sales SET ?=? WHERE Rank=?"
+        self.updateQuery = "UPDATE video_game_sales SET {props} WHERE Rank=?"
 
 
 
 
 
-    def selectAll( self):
+    def selectAll( self ):
         self.errMsg = "Failed trying to perform SELECT ALL query for Video Game Sales - "
 
         return super().selectAll(func=self.createVideoGames)
@@ -52,9 +52,9 @@ class VideoGameSalesDAO(DAO):
         self.errMsg = "Failed trying to perform DELETE query for Video Game Sales - "
         return super().delete(args)
 
-    def update(self, args):
+    def update(self, args, props ):
         self.errMsg = "Failed trying to perform UPDATE query for Video Game Sales - "
-        return super().update(args)
+        return super().update(args,props)
 
 
     def query( self, query, args=(), select=False, commit=False, eMsg="" ):
@@ -73,10 +73,10 @@ class VideoGameSalesDAO(DAO):
 
     def createVideoGames(self ,allData):
         """
-       Create a list of VideoGameModels
+        Create a list of VideoGameModels
         - see: createVideoGame(rowData)
-       :param allData: list of all the rows in the table
-       :return: List of VideoGameModel Objects
-       """
+        :param allData: list of all the rows in the table
+        :return: List of VideoGameModel Objects
+        """
         videoGames = list(map(self.createVideoGame ,allData))
         return videoGames
