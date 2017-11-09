@@ -6,4 +6,5 @@
     Author - Philip Bedward
 """
 from flask import Flask
-APP = Flask(__name__)
+APP = Flask(__name__,static_folder="../client/dist",template_folder="../client")
+

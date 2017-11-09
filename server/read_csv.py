@@ -5,8 +5,11 @@
     Author - Philip Bedward
 """
 import pandas as pd
-from dao.video_game_sales_dao import VideoGameSalesDAO
-from dao.ign_review_dao import IGNReviewDAO
+from .dao.video_game_sales_dao import VideoGameSalesDAO
+
+from .dao.ign_review_dao import IGNReviewDAO
+
+import os
 
 
 def readVideoGames():
@@ -15,7 +18,7 @@ def readVideoGames():
     :return:
     """
     # TODO: Should take command line input in future
-    csv = pd.read_csv("sample data/Sample Video Game Sales.csv")
+    csv = pd.read_csv(os.getcwd()+"/server/sample_data/Sample Video Game Sales.csv")
     maxRank = csv["Rank"].max()
 
     vgDAO = VideoGameSalesDAO()
@@ -47,7 +50,7 @@ def readIGNReviews():
     :return:
     """
     # TODO: Should take command line input in future
-    csv = pd.read_csv("sample data/Sample IGN Reviews.csv")
+    csv = pd.read_csv(os.getcwd()+"/server/sample_data/Sample IGN Reviews.csv")
     count = len(csv.index)
 
     ignDAO = IGNReviewDAO()

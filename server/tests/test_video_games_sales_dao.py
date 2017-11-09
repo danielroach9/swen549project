@@ -1,7 +1,8 @@
-from dao.video_game_sales_dao import VideoGameSalesDAO
-from db_driver import initializeDB
-from read_csv import read
-from model.videoGameModel import VideoGameModel
+from server.dao.video_game_sales_dao import VideoGameSalesDAO
+from server.db_driver import initializeDB
+from server.model.videoGameModel import VideoGameModel
+from server.read_csv import read
+
 
 def setup():
     initializeDB()

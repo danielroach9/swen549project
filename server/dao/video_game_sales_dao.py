@@ -4,8 +4,8 @@
     Date - 11/2/17
     Author - Philip Bedward
 """
+from server.model.videoGameModel import VideoGameModel
 from .dao_interface import DAO
-from model.videoGameModel import VideoGameModel
 
 
 class VideoGameSalesDAO(DAO):

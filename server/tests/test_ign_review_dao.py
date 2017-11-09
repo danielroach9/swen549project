@@ -1,7 +1,8 @@
-from dao.ign_review_dao import IGNReviewDAO
-from db_driver import initializeDB
-from read_csv import read
-from model.ignReviewModel import IGNReviewModel
+from server.dao.ign_review_dao import IGNReviewDAO
+from server.db_driver import initializeDB
+from server.model.ignReviewModel import IGNReviewModel
+from server.read_csv import read
+
 
 def setup():
     initializeDB()

@@ -4,9 +4,8 @@
     Date - 11/2/17
     Author - Philip Bedward
 """
+from server.model.ignReviewModel import IGNReviewModel
 from .dao_interface import DAO
-from model.ignReviewModel import IGNReviewModel
-
 
 
 class IGNReviewDAO(DAO):

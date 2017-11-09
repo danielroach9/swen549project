@@ -5,9 +5,10 @@
     Author - Philip Bedward
 """
 import sqlite3
+
 from flask import g
 
-from app import APP
+from server.app import APP
 
 DATABASE = 'video_games_sample.db'
 SCHEMAS = [

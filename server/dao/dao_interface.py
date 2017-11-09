@@ -4,9 +4,11 @@
     Date - 11/2/17
     Author - Philip Bedward
 """
-from db_driver import getDB
-from app import APP
 import sys
+
+from server.app import APP
+from server.db_driver import getDB
+
 
 class DAO:
     """
