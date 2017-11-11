@@ -2,7 +2,7 @@
     Script that reads in data from the csv files and loads them into the database
 
     Date - 11/2/17
-    Author - Philip Bedward, Daniel Roch, Sadaf Chowdhury, Daniel Darius Cox
+    Author - Philip Bedward, Daniel Roach, Sadaf Chowdhury, Daniel Darius Cox
 """
 import pandas as pd
 from .dao.video_game_sales_dao import VideoGameSalesDAO

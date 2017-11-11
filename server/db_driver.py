@@ -2,7 +2,7 @@
     File that contains methods for setting up and closing the connection to the database
 
     Date - 11/2/17
-    Author - Philip Bedward, Daniel Roch, Sadaf Chowdhury, Daniel Darius Cox
+    Author - Philip Bedward, Daniel Roach, Sadaf Chowdhury, Daniel Darius Cox
 """
 import sqlite3
 
