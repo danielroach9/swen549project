@@ -2,7 +2,7 @@
     Script that reads in data from the csv files and loads them into the database
 
     Date - 11/2/17
-    Author - Philip Bedward
+    Author - Philip Bedward, Daniel Roch, Sadaf Chowdhury, Daniel Darius Cox
 """
 import pandas as pd
 from .dao.video_game_sales_dao import VideoGameSalesDAO
@@ -18,7 +18,7 @@ def readVideoGames():
     :return:
     """
     # TODO: Should take command line input in future
-    csv = pd.read_csv(os.getcwd()+"/server/sample_data/Sample Video Game Sales.csv")
+    csv = pd.read_csv(os.getcwd()+"/sample_data/Sample_Video_Game_Sales.csv")
     maxRank = csv["Rank"].max()
 
     vgDAO = VideoGameSalesDAO()
@@ -50,7 +50,7 @@ def readIGNReviews():
     :return:
     """
     # TODO: Should take command line input in future
-    csv = pd.read_csv(os.getcwd()+"/server/sample_data/Sample IGN Reviews.csv")
+    csv = pd.read_csv(os.getcwd()+"/sample_data/Sample_IGN_Reviews.csv")
     count = len(csv.index)
 
     ignDAO = IGNReviewDAO()
