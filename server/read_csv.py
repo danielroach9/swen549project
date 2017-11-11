@@ -12,6 +12,7 @@ from .dao.ign_review_dao import IGNReviewDAO
 import os
 
 
+
 def readVideoGames():
     """
     Reads the video games csv data into its corresponding database table
