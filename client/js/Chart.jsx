@@ -6,34 +6,34 @@ export default class Chart extends Component {
 
     constructor(props){
         super(props);
+        google.charts.load('current', {packages: ['corechart']});
+
+    }
+
+    componentDidMount(){
+        google.charts.setOnLoadCallback(this.drawChart.bind(this));
+
     }
 
 
     render(){
-        return <div id="mainChart"></div>;
+        return <div id="pieChart"></div>;
     }
 
     // non Component functions
-    drawChart(){
-        let data = google.visualization.arrayToDataTable([
-          ['Age', 'Weight'],
-          [ 8,      12],
-          [ 4,      5.5],
-          [ 11,     14],
-          [ 4,      5],
-          [ 3,      3.5],
-          [ 6.5,    7]
-        ]);
+    drawChart() {
+      // Define the chart to be drawn.
+      var data = new google.visualization.DataTable();
+      data.addColumn('string', 'Element');
+      data.addColumn('number', 'Percentage');
+      data.addRows([
+        ['Nitrogen', 0.78],
+        ['Oxygen', 0.21],
+        ['Other', 0.01]
+      ]);
 
-        let options = {
-          title: 'Age vs. Weight comparison',
-          hAxis: {title: 'Age', minValue: 0, maxValue: 15},
-          vAxis: {title: 'Weight', minValue: 0, maxValue: 15},
-          legend: 'none'
-        };
-
-        let chart = new google.visualization.ScatterChart(document.getElementById('mainChart'));
-
-        chart.draw(options, data);
+      // Instantiate and draw the chart.
+      let chart = new google.visualization.PieChart(document.getElementById('pieChart'));
+      chart.draw(data, null);
     }
 }
