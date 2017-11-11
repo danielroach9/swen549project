@@ -18,7 +18,7 @@ def readVideoGames():
     :return:
     """
     # TODO: Should take command line input in future
-    csv = pd.read_csv(os.getcwd()+"/server/sample_data/Sample Video Game Sales.csv")
+    csv = pd.read_csv(os.getcwd()+"/server/sample_data/Sample Video Game Sales.csv") # might be a different path on another machine please check
     maxRank = csv["Rank"].max()
 
     vgDAO = VideoGameSalesDAO()
@@ -50,7 +50,7 @@ def readIGNReviews():
     :return:
     """
     # TODO: Should take command line input in future
-    csv = pd.read_csv(os.getcwd()+"/server/sample_data/Sample IGN Reviews.csv")
+    csv = pd.read_csv(os.getcwd()+"/server/sample_data/Sample IGN Reviews.csv") # might be a different path on another machine please check
     count = len(csv.index)
 
     ignDAO = IGNReviewDAO()

@@ -1,4 +1,5 @@
 import React, {Component} from "react";
+import Chart from "./Chart"
 
 export default class App extends Component {
     constructor(props){
@@ -6,6 +7,6 @@ export default class App extends Component {
     }
 
     render(){
-        return <p>Hello world!</p>;
+        return <Chart/>;
     }
 }
