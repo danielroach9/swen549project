@@ -58,4 +58,4 @@ class VideoGameModel(object):
         return self.otherSales * self.ONE_MILLION
 
     def getGlobalSales(self):
-        return self.globalSales * self.ONE_MILLION
+        return self.globalSales

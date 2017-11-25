@@ -1,101 +1,1002 @@
 ,score_phrase,title,url,platform,score,genre,editors_choice,release_year,release_month,release_day
-0,Amazing,LittleBigPlanet PS Vita,/games/littlebigplanet-vita/vita-98907,PlayStation Vita,9,Platformer,Y,2012,9,12
-1,Amazing,LittleBigPlanet PS Vita -- Marvel Super Hero Edition,/games/littlebigplanet-ps-vita-marvel-super-hero-edition/vita-20027059,PlayStation Vita,9,Platformer,Y,2012,9,12
+0,Amazing,LittleBigPlanet PS Vita,/games/littlebigplanet-vita/vita-98907,PlayStation Vita,9.0,Platformer,Y,2012,9,12
+1,Amazing,LittleBigPlanet PS Vita -- Marvel Super Hero Edition,/games/littlebigplanet-ps-vita-marvel-super-hero-edition/vita-20027059,PlayStation Vita,9.0,Platformer,Y,2012,9,12
 2,Great,Splice: Tree of Life,/games/splice/ipad-141070,iPad,8.5,Puzzle,N,2012,9,12
 3,Great,NHL 13,/games/nhl-13/xbox-360-128182,Xbox 360,8.5,Sports,N,2012,9,11
 4,Great,NHL 13,/games/nhl-13/ps3-128181,PlayStation 3,8.5,Sports,N,2012,9,11
-5,Good,Total War Battles: Shogun,/games/total-war-battles-shogun/mac-142565,Macintosh,7,Strategy,N,2012,9,11
-6,Awful,Double Dragon: Neon,/games/double-dragon-neon/xbox-360-131320,Xbox 360,3,Fighting,N,2012,9,11
-7,Amazing,Guild Wars 2,/games/guild-wars-2/pc-896298,PC,9,RPG,Y,2012,9,11
-8,Awful,Double Dragon: Neon,/games/double-dragon-neon/ps3-131321,PlayStation 3,3,Fighting,N,2012,9,11
-9,Good,Total War Battles: Shogun,/games/total-war-battles-shogun/pc-142564,PC,7,Strategy,N,2012,9,11
+5,Good,Total War Battles: Shogun,/games/total-war-battles-shogun/mac-142565,Macintosh,7.0,Strategy,N,2012,9,11
+6,Awful,Double Dragon: Neon,/games/double-dragon-neon/xbox-360-131320,Xbox 360,3.0,Fighting,N,2012,9,11
+7,Amazing,Guild Wars 2,/games/guild-wars-2/pc-896298,PC,9.0,RPG,Y,2012,9,11
+8,Awful,Double Dragon: Neon,/games/double-dragon-neon/ps3-131321,PlayStation 3,3.0,Fighting,N,2012,9,11
+9,Good,Total War Battles: Shogun,/games/total-war-battles-shogun/pc-142564,PC,7.0,Strategy,N,2012,9,11
 10,Good,Tekken Tag Tournament 2,/games/tekken-tag-tournament-2/ps3-124584,PlayStation 3,7.5,Fighting,N,2012,9,11
 11,Good,Tekken Tag Tournament 2,/games/tekken-tag-tournament-2/xbox-360-124581,Xbox 360,7.5,Fighting,N,2012,9,11
-12,Good,Wild Blood,/games/wild-blood/iphone-139363,iPhone,7,,N,2012,9,10
-13,Amazing,Mark of the Ninja,/games/mark-of-the-ninja-135615/xbox-360-129276,Xbox 360,9,"Action, Adventure",Y,2012,9,7
-14,Amazing,Mark of the Ninja,/games/mark-of-the-ninja-135615/pc-143761,PC,9,"Action, Adventure",Y,2012,9,7
+12,Good,Wild Blood,/games/wild-blood/iphone-139363,iPhone,7.0,,N,2012,9,10
+13,Amazing,Mark of the Ninja,/games/mark-of-the-ninja-135615/xbox-360-129276,Xbox 360,9.0,"Action, Adventure",Y,2012,9,7
+14,Amazing,Mark of the Ninja,/games/mark-of-the-ninja-135615/pc-143761,PC,9.0,"Action, Adventure",Y,2012,9,7
 15,Okay,Home: A Unique Horror Adventure,/games/home-a-unique-horror-adventure/mac-20014750,Macintosh,6.5,Adventure,N,2012,9,6
 16,Okay,Home: A Unique Horror Adventure,/games/home-a-unique-horror-adventure/pc-137135,PC,6.5,Adventure,N,2012,9,6
-17,Great,Avengers Initiative,/games/avengers-initiative/iphone-141579,iPhone,8,Action,N,2012,9,5
+17,Great,Avengers Initiative,/games/avengers-initiative/iphone-141579,iPhone,8.0,Action,N,2012,9,5
 18,Mediocre,Way of the Samurai 4,/games/way-of-the-samurai-4/ps3-23516,PlayStation 3,5.5,"Action, Adventure",N,2012,9,3
-19,Good,JoJo's Bizarre Adventure HD,/games/jojos-bizarre-adventure/xbox-360-137717,Xbox 360,7,Fighting,N,2012,9,3
-20,Good,JoJo's Bizarre Adventure HD,/games/jojos-bizarre-adventure/ps3-137896,PlayStation 3,7,Fighting,N,2012,9,3
+19,Good,JoJo's Bizarre Adventure HD,/games/jojos-bizarre-adventure/xbox-360-137717,Xbox 360,7.0,Fighting,N,2012,9,3
+20,Good,JoJo's Bizarre Adventure HD,/games/jojos-bizarre-adventure/ps3-137896,PlayStation 3,7.0,Fighting,N,2012,9,3
 21,Good,Mass Effect 3: Leviathan,/games/mass-effect-3-leviathan/xbox-360-138918,Xbox 360,7.5,RPG,N,2012,8,31
 22,Good,Mass Effect 3: Leviathan,/games/mass-effect-3-leviathan/ps3-138915,PlayStation 3,7.5,RPG,N,2012,8,31
 23,Good,Mass Effect 3: Leviathan,/games/mass-effect-3-leviathan/pc-138919,PC,7.5,RPG,N,2012,8,31
-24,Amazing,Dark Souls (Prepare to Die Edition),/games/dark-souls-prepare-to-die-edition/pc-131930,PC,9,"Action, RPG",Y,2012,8,31
-25,Good,Symphony,/games/symphony/pc-136470,PC,7,Shooter,N,2012,8,30
-26,Amazing,Bastion,/games/bastion/ipad-140874,iPad,9,"Action, RPG",Y,2012,8,30
+24,Amazing,Dark Souls (Prepare to Die Edition),/games/dark-souls-prepare-to-die-edition/pc-131930,PC,9.0,"Action, RPG",Y,2012,8,31
+25,Good,Symphony,/games/symphony/pc-136470,PC,7.0,Shooter,N,2012,8,30
+26,Amazing,Bastion,/games/bastion/ipad-140874,iPad,9.0,"Action, RPG",Y,2012,8,30
 27,Good,Tom Clancy's Ghost Recon Phantoms,/games/tom-clancys-ghost-recon-online/pc-109114,PC,7.5,Shooter,N,2012,8,29
-28,Great,Thirty Flights of Loving,/games/thirty-flights-of-loving/pc-138374,PC,8,Adventure,N,2012,8,29
+28,Great,Thirty Flights of Loving,/games/thirty-flights-of-loving/pc-138374,PC,8.0,Adventure,N,2012,8,29
 29,Okay,Legasista,/games/legasista/ps3-127147,PlayStation 3,6.5,"Action, RPG",N,2012,8,28
-30,Amazing,The Walking Dead: The Game -- Episode 3: Long Road Ahead,/games/the-walking-dead-season-1-episode-3/mac-135875,Macintosh,9,Adventure,Y,2012,8,28
+30,Amazing,The Walking Dead: The Game -- Episode 3: Long Road Ahead,/games/the-walking-dead-season-1-episode-3/mac-135875,Macintosh,9.0,Adventure,Y,2012,8,28
 31,Great,World of Warcraft: Mists of Pandaria,/games/world-of-warcraft-mists-of-pandaria/pc-114681,PC,8.7,RPG,Y,2012,10,4
 32,Bad,Hell Yeah! Wrath of the Dead Rabbit,/games/hell-yeah-wrath-of-the-dead-rabbit/ps3-129409,PlayStation 3,4.9,Platformer,N,2012,10,4
 33,Amazing,Pokemon White Version 2,/games/pokemon-white-version-2/nds-129228,Nintendo DS,9.6,RPG,Y,2012,10,3
 34,Good,War of the Roses,/games/war-of-the-roses-140577/pc-115849,PC,7.3,Action,N,2012,10,3
 35,Amazing,Pokemon Black Version 2,/games/pokemon-black-version-2/nds-129224,Nintendo DS,9.6,RPG,Y,2012,10,3
 36,Okay,Drakerider,/games/drakerider/iphone-135745,iPhone,6.5,RPG,N,2012,10,3
-37,Amazing,The Walking Dead: The Game -- Episode 3: Long Road Ahead,/games/the-walking-dead-season-1-episode-3/xbox-360-135872,Xbox 360,9,Adventure,Y,2012,8,28
-38,Amazing,The Walking Dead: The Game -- Episode 3: Long Road Ahead,/games/the-walking-dead-season-1-episode-3/pc-135874,PC,9,Adventure,Y,2012,8,28
-39,Amazing,The Walking Dead: The Game -- Episode 3: Long Road Ahead,/games/the-walking-dead-season-1-episode-3/ps3-135873,PlayStation 3,9,Adventure,Y,2012,8,28
+37,Amazing,The Walking Dead: The Game -- Episode 3: Long Road Ahead,/games/the-walking-dead-season-1-episode-3/xbox-360-135872,Xbox 360,9.0,Adventure,Y,2012,8,28
+38,Amazing,The Walking Dead: The Game -- Episode 3: Long Road Ahead,/games/the-walking-dead-season-1-episode-3/pc-135874,PC,9.0,Adventure,Y,2012,8,28
+39,Amazing,The Walking Dead: The Game -- Episode 3: Long Road Ahead,/games/the-walking-dead-season-1-episode-3/ps3-135873,PlayStation 3,9.0,Adventure,Y,2012,8,28
 40,Great,Rock Band Blitz,/games/rock-band-blitz/xbox-360-131273,Xbox 360,8.5,Music,Y,2012,8,27
-41,Great,Counter-Strike: Global Offensive,/games/counter-strike-global-offensive/mac-116695,Macintosh,8,Shooter,N,2012,8,27
+41,Great,Counter-Strike: Global Offensive,/games/counter-strike-global-offensive/mac-116695,Macintosh,8.0,Shooter,N,2012,8,27
 42,Great,Worms Revolution,/games/worms-revolution/ps3-131184,PlayStation 3,8.5,Strategy,N,2012,10,2
 43,Great,Worms Revolution,/games/worms-revolution/pc-131183,PC,8.5,Strategy,N,2012,10,2
 44,Great,Worms Revolution,/games/worms-revolution/xbox-360-131185,Xbox 360,8.5,Strategy,N,2012,10,2
 45,Amazing,Bad Piggies,/games/bad-piggies/iphone-141455,iPhone,9.2,Action,Y,2012,10,1
 46,Good,Resident Evil 6,/games/resident-evil-6/ps3-85710,PlayStation 3,7.9,"Action, Adventure",N,2012,10,1
 47,Good,Resident Evil 6,/games/resident-evil-6/xbox-360-117995,Xbox 360,7.9,"Action, Adventure",N,2012,10,1
-48,Good,Shad'O,/games/shado/pc-141293,PC,7,Adventure,N,2012,9,28
+48,Good,Shad'O,/games/shado/pc-141293,PC,7.0,Adventure,N,2012,9,28
 49,Okay,Demon's Score,/games/demons-score/iphone-118050,iPhone,6.9,Action,N,2012,9,27
 50,Amazing,NBA 2K13,/games/nba-2k13/xbox-360-132080,Xbox 360,9.1,Sports,Y,2012,9,27
-51,Great,Counter-Strike: Global Offensive,/games/counter-strike-global-offensive/pc-115451,PC,8,Shooter,N,2012,8,27
+51,Great,Counter-Strike: Global Offensive,/games/counter-strike-global-offensive/pc-115451,PC,8.0,Shooter,N,2012,8,27
 52,Amazing,The World Ends with You: Solo Remix,/games/the-world-ends-with-you-solo-remix/ipad-140661,iPad,9.5,RPG,Y,2012,8,27
-53,Great,Counter-Strike: Global Offensive,/games/counter-strike-global-offensive/ps3-115453,PlayStation 3,8,Shooter,N,2012,8,27
+53,Great,Counter-Strike: Global Offensive,/games/counter-strike-global-offensive/ps3-115453,PlayStation 3,8.0,Shooter,N,2012,8,27
 54,Amazing,The World Ends with You: Solo Remix,/games/the-world-ends-with-you-solo-remix/iphone-140269,iPhone,9.5,RPG,Y,2012,8,27
-55,Great,Counter-Strike: Global Offensive,/games/counter-strike-global-offensive/xbox-360-115452,Xbox 360,8,Shooter,N,2012,8,27
-56,Okay,Madden NFL 13,/games/madden-nfl-2013/vita-128100,PlayStation Vita,6,Sports,N,2012,8,24
-57,Amazing,Madden NFL 13,/games/madden-nfl-2013/ps3-128098,PlayStation 3,9,Sports,Y,2012,8,24
-58,Amazing,Madden NFL 13,/games/madden-nfl-2013/xbox-360-128097,Xbox 360,9,Sports,Y,2012,8,24
+55,Great,Counter-Strike: Global Offensive,/games/counter-strike-global-offensive/xbox-360-115452,Xbox 360,8.0,Shooter,N,2012,8,27
+56,Okay,Madden NFL 13,/games/madden-nfl-2013/vita-128100,PlayStation Vita,6.0,Sports,N,2012,8,24
+57,Amazing,Madden NFL 13,/games/madden-nfl-2013/ps3-128098,PlayStation 3,9.0,Sports,Y,2012,8,24
+58,Amazing,Madden NFL 13,/games/madden-nfl-2013/xbox-360-128097,Xbox 360,9.0,Sports,Y,2012,8,24
 59,Painful,Hoodwink,/games/hoodwink/pc-136672,PC,2.5,Adventure,N,2012,8,23
 60,Amazing,NBA 2K13,/games/nba-2k13/ps3-132077,PlayStation 3,9.1,Sports,Y,2012,9,27
 61,Amazing,NBA 2K13,/games/nba-2k13/pc-140490,PC,9.1,Sports,Y,2012,9,27
-62,Good,Lili: Child of Geos,/games/lili/iphone-138013,iPhone,7,Adventure,N,2012,9,26
+62,Good,Lili: Child of Geos,/games/lili/iphone-138013,iPhone,7.0,Adventure,N,2012,9,26
 63,Great,Marvel vs. Capcom Origins,/games/marvel-vs-capcom-origins/xbox-360-137157,Xbox 360,8.2,Fighting,N,2012,9,26
 64,Great,Marvel vs. Capcom Origins,/games/marvel-vs-capcom-origins/ps3-137160,PlayStation 3,8.2,Fighting,N,2012,9,26
 65,Great,Dead or Alive 5,/games/dead-or-alive-5/ps3-117918,PlayStation 3,8.8,Fighting,N,2012,9,25
 66,Great,Dead or Alive 5,/games/dead-or-alive-5/xbox-360-866449,Xbox 360,8.8,Fighting,N,2012,9,25
-67,Bad,Medal of Honor Warfighter,/games/medal-of-honor-warfighter/pc-101082,PC,4,Shooter,N,2012,10,26
+67,Bad,Medal of Honor Warfighter,/games/medal-of-honor-warfighter/pc-101082,PC,4.0,Shooter,N,2012,10,26
 68,Great,Professor Layton and the Miracle Mask,/games/professor-layton-and-the-mask-of-miracle/3ds-77742,Nintendo 3DS,8.7,Adventure,Y,2012,10,26
 69,Great,Hotline Miami,/games/hotline-miami/pc-139657,PC,8.8,Action,Y,2012,10,26
-70,Okay,Edna & Harvey: Harvey's New Eyes,/games/edna-harvey-harveys-new-eyes/pc-145776,PC,6,Adventure,N,2012,10,26
-71,Bad,Medal of Honor Warfighter,/games/medal-of-honor-warfighter/ps3-101085,PlayStation 3,4,Shooter,N,2012,10,26
-72,Bad,Medal of Honor Warfighter,/games/medal-of-honor-warfighter/xbox-360-101086,Xbox 360,4,Shooter,N,2012,10,26
+70,Okay,Edna & Harvey: Harvey's New Eyes,/games/edna-harvey-harveys-new-eyes/pc-145776,PC,6.0,Adventure,N,2012,10,26
+71,Bad,Medal of Honor Warfighter,/games/medal-of-honor-warfighter/ps3-101085,PlayStation 3,4.0,Shooter,N,2012,10,26
+72,Bad,Medal of Honor Warfighter,/games/medal-of-honor-warfighter/xbox-360-101086,Xbox 360,4.0,Shooter,N,2012,10,26
 73,Great,Transformers: Fall of Cybertron,/games/transformers-fall-of-cybertron/xbox-360-92426,Xbox 360,8.5,Shooter,N,2012,8,21
 74,Great,Transformers: Fall of Cybertron,/games/transformers-fall-of-cybertron/ps3-92425,PlayStation 3,8.5,Shooter,N,2012,8,21
-75,Amazing,Hero Academy,/games/hero-academy-136971/pc-122908,PC,9,Board,Y,2012,8,20
-76,Amazing,Hero Academy,/games/hero-academy-136971/iphone-122803,iPhone,9,Strategy,Y,2012,8,20
-77,Amazing,Puzzle Craft,/games/puzzlecraft/iphone-134348,iPhone,9,Puzzle,Y,2012,8,17
+75,Amazing,Hero Academy,/games/hero-academy-136971/pc-122908,PC,9.0,Board,Y,2012,8,20
+76,Amazing,Hero Academy,/games/hero-academy-136971/iphone-122803,iPhone,9.0,Strategy,Y,2012,8,20
+77,Amazing,Puzzle Craft,/games/puzzlecraft/iphone-134348,iPhone,9.0,Puzzle,Y,2012,8,17
 78,Mediocre,Realms Of Ancient War,/games/realms-of-ancient-war/xbox-360-111182,Xbox 360,5.5,Action,N,2012,9,24
 79,Mediocre,Realms Of Ancient War,/games/realms-of-ancient-war/ps3-111181,PlayStation 3,5.5,Action,N,2012,9,24
 80,Great,Anomaly: Warzone Earth,/games/anomaly-warzone-earth/ps3-138479,PlayStation 3,8.2,Action,N,2012,9,23
 81,Good,Darksiders II,/games/darksiders-2/pc-91963,PC,7.5,Action,N,2012,8,17
-82,Good,Left 4 Dead 2: Cold Stream,/games/left-4-dead-2-cold-stream/mac-140189,Macintosh,7,Shooter,N,2012,8,17
-83,Good,Left 4 Dead 2: Cold Stream,/games/left-4-dead-2-cold-stream/pc-140187,PC,7,Shooter,N,2012,8,17
-84,Amazing,Puzzle Craft,/games/puzzlecraft/android-134352,Android,9,Puzzle,Y,2012,8,17
-85,Good,Left 4 Dead 2: Cold Stream,/games/left-4-dead-2-cold-stream/xbox-360-140188,Xbox 360,7,Shooter,N,2012,8,17
-86,Amazing,Horn,/games/horn/iphone-136814,iPhone,9,"Action, Adventure",Y,2012,8,16
-87,Amazing,Forza Horizon,/games/forza-horizon/xbox-360-129564,Xbox 360,9,Racing,Y,2012,10,12
-88,Bad,FIFA Soccer 13,/games/fifa-2013/vita-115689,PlayStation Vita,4,Sports,N,2012,10,12
+82,Good,Left 4 Dead 2: Cold Stream,/games/left-4-dead-2-cold-stream/mac-140189,Macintosh,7.0,Shooter,N,2012,8,17
+83,Good,Left 4 Dead 2: Cold Stream,/games/left-4-dead-2-cold-stream/pc-140187,PC,7.0,Shooter,N,2012,8,17
+84,Amazing,Puzzle Craft,/games/puzzlecraft/android-134352,Android,9.0,Puzzle,Y,2012,8,17
+85,Good,Left 4 Dead 2: Cold Stream,/games/left-4-dead-2-cold-stream/xbox-360-140188,Xbox 360,7.0,Shooter,N,2012,8,17
+86,Amazing,Horn,/games/horn/iphone-136814,iPhone,9.0,"Action, Adventure",Y,2012,8,16
+87,Amazing,Forza Horizon,/games/forza-horizon/xbox-360-129564,Xbox 360,9.0,Racing,Y,2012,10,12
+88,Bad,FIFA Soccer 13,/games/fifa-2013/vita-115689,PlayStation Vita,4.0,Sports,N,2012,10,12
 89,Awful,Mugen Souls,/games/mugen-souls/ps3-120256,PlayStation 3,3.9,"Strategy, RPG",N,2012,10,12
 90,Good,Crazy Taxi,/games/crazy-taxi/iphone-144755,iPhone,7.1,"Racing, Action",N,2012,10,11
 91,Mediocre,New Little King's Story,/games/new-kings-story/vita-116369,PlayStation Vita,5.8,RPG,N,2012,10,11
 92,Good,Fable: The Journey,/games/fable-the-journey/xbox-360-27948,Xbox 360,7.2,"Action, RPG",N,2012,10,9
 93,Great,The Lord of the Rings Online: Riders of Rohan,/games/the-lord-of-the-rings-online-riders-of-rohan/pc-127207,PC,8.3,RPG,N,2012,10,26
 94,Good,Doom 3: BFG Edition,/games/doom-3/xbox-360-135333,Xbox 360,7.6,RPG,N,2012,10,25
-95,Okay,Rugby League Live 2,/games/rugby-league-live-2/xbox-360-136983,Xbox 360,6,Sports,N,2012,10,25
-96,Okay,Rugby League Live 2,/games/rugby-league-live-2/ps3-136984,PlayStation 3,6,Sports,N,2012,10,25
+95,Okay,Rugby League Live 2,/games/rugby-league-live-2/xbox-360-136983,Xbox 360,6.0,Sports,N,2012,10,25
+96,Okay,Rugby League Live 2,/games/rugby-league-live-2/ps3-136984,PlayStation 3,6.0,Sports,N,2012,10,25
 97,Good,Doom 3: BFG Edition,/games/doom-3/ps3-135329,PlayStation 3,7.6,RPG,N,2012,10,25
 98,Amazing,Punch Quest,/games/punch-quest/iphone-136667,iPhone,9.3,Action,Y,2012,10,25
 99,Okay,He-Man: The Most Powerful Game in the Universe,/games/he-man-the-most-powerful-game-in-the-universe/iphone-144763,iPhone,6.8,Action,N,2012,10,25
+100,Good,Doom 3: BFG Edition,/games/doom-3/pc-135338,PC,7.6,RPG,N,2012,10,25
+101,Great,Dokuro,/games/dokuro/vita-130906,PlayStation Vita,8.8,Puzzle,N,2012,10,19
+102,Painful,Naughty Bear: Panic in Paradise,/games/naughty-bear-panic-in-paradise/xbox-360-135404,Xbox 360,2.3,Action,N,2012,10,18
+103,Painful,Naughty Bear: Panic in Paradise,/games/naughty-bear-panic-in-paradise/ps3-135407,PlayStation 3,2.3,Action,N,2012,10,18
+104,Good,Borderlands 2: Captain Scarlett and her Pirate's Booty,/games/borderlands-2-captain-scarlett-and-her-pirates-booty/ps3-145419,PlayStation 3,7.5,"Shooter, RPG",N,2012,10,18
+105,Great,Skylanders Giants,/games/skylanders-giants/ps3-128142,PlayStation 3,8.0,"Action, Adventure",N,2012,10,18
+106,Good,Borderlands 2: Captain Scarlett and her Pirate's Booty,/games/borderlands-2-captain-scarlett-and-her-pirates-booty/pc-145418,PC,7.5,"Shooter, RPG",N,2012,10,18
+107,Great,Rayman: Jungle Run,/games/rayman-jungle-run/iphone-141641,iPhone,8.8,Platformer,N,2012,9,20
+108,Amazing,FIFA Soccer 13,/games/fifa-2013/pc-115688,PC,9.0,Sports,Y,2012,9,20
+109,Amazing,FIFA Soccer 13,/games/fifa-2013/ps3-115679,PlayStation 3,9.0,Sports,Y,2012,9,20
+110,Amazing,Torchlight II,/games/torchlight-ii/pc-82633,PC,9.1,"Action, RPG",Y,2012,9,20
+111,Amazing,FIFA Soccer 13,/games/fifa-2013/xbox-360-115691,Xbox 360,9.0,Sports,Y,2012,9,20
+112,Bad,The Sims 3: Supernatural,/games/the-sims-3-supernatural/pc-136180,PC,4.5,Simulation,N,2012,9,19
+113,Good,Retro/Grade,/games/retrograde-138590/ps3-21766,PlayStation 3,7.0,,N,2012,8,15
+114,Amazing,Iron Brigade,/games/iron-brigade/pc-121033,PC,9.0,Action,Y,2012,8,15
+115,Okay,Cafeteria Nipponica,/games/cafeteria-nipponica/iphone-139633,iPhone,6.0,Simulation,N,2012,8,15
+116,Great,Sleeping Dogs,/games/sleeping-dogs/xbox-360-14279324,Xbox 360,8.5,Action,N,2012,8,14
+117,Great,Sleeping Dogs,/games/sleeping-dogs/ps3-55068,PlayStation 3,8.5,Action,N,2012,8,14
+118,Good,Darksiders II,/games/darksiders-2/ps3-14336767,PlayStation 3,7.5,Action,N,2012,8,14
+119,Bad,Papo & Yo,/games/papo-and-yo/ps3-110267,PlayStation 3,4.0,Adventure,N,2012,8,14
+120,Good,The Walking Dead: The Game -- Episode 4: Around Every Corner,/games/the-walking-dead-season-1-episode-4/pc-135879,PC,7.5,Adventure,N,2012,10,9
+121,Good,The Walking Dead: The Game -- Episode 4: Around Every Corner,/games/the-walking-dead-season-1-episode-4/ipad-135882,iPad,7.5,Adventure,N,2012,10,9
+122,Good,The Walking Dead: The Game -- Episode 4: Around Every Corner,/games/the-walking-dead-season-1-episode-4/ps3-135880,PlayStation 3,7.5,Adventure,N,2012,10,9
+123,Mediocre,Cortex Command,/games/cortex-command/pc-14333880,PC,5.0,"Action, Simulation",N,2012,10,9
+124,Good,The Walking Dead: The Game -- Episode 4: Around Every Corner,/games/the-walking-dead-season-1-episode-4/xbox-360-135881,Xbox 360,7.5,Adventure,N,2012,10,9
+125,Good,Derrick the Deathfin,/games/derrick-the-deathfin-133942/ps3-129921,PlayStation 3,7.4,Action,N,2012,10,9
+126,Good,The Walking Dead: The Game -- Episode 4: Around Every Corner,/games/the-walking-dead-season-1-episode-4/mac-135878,Macintosh,7.5,Adventure,N,2012,10,9
+127,Great,XCOM: Enemy Unknown,/games/xcom-enemy-unknown/xbox-360-126074,Xbox 360,8.2,Strategy,N,2012,10,8
+128,Great,XCOM: Enemy Unknown,/games/xcom-enemy-unknown/pc-126070,PC,8.2,Strategy,N,2012,10,8
+129,Okay,Silent Hill: Book of Memories,/games/silent-hill-book-of-memories/vita-110040,PlayStation Vita,6.0,Adventure,N,2012,10,24
+130,Good,Diaspora: Shattered Armistice,/games/diaspora-shattered-armistice/pc-145951,PC,7.4,"Flight, Action",N,2012,10,24
+131,Okay,Pocket Clothier,/games/pocket-clothier/iphone-145621,iPhone,6.6,Strategy,N,2012,10,24
+132,Okay,Pocket Clothier,/games/pocket-clothier/android-145958,Android,6.6,Strategy,N,2012,10,24
+133,Okay,Ravaged,/games/ravaged-135376/pc-128650,PC,6.7,Shooter,N,2012,10,23
+134,Okay,True Skate,/games/true-skate/iphone-145482,iPhone,6.7,Sports,N,2012,10,23
+135,Amazing,Zero Escape: Virtue's Last Reward,/games/virtues-last-reward/3ds-116383,Nintendo 3DS,9.5,Adventure,Y,2012,10,23
+136,Amazing,Zero Escape: Virtue's Last Reward,/games/virtues-last-reward/vita-116380,PlayStation Vita,9.5,Adventure,Y,2012,10,23
+137,Amazing,The Walking Dead: The Game -- Episode 3: Long Road Ahead,/games/the-walking-dead-season-1-episode-3/ipad-135871,iPad,9.0,Adventure,Y,2012,10,22
+138,Great,Skylanders Giants,/games/skylanders-giants/xbox-360-128140,Xbox 360,8.0,"Action, Adventure",N,2012,10,18
+139,Great,Skylanders Giants,/games/skylanders-giants/wii-128141,Wii,8.0,"Action, Adventure",N,2012,10,18
+140,Good,Borderlands 2: Captain Scarlett and her Pirate's Booty,/games/borderlands-2-captain-scarlett-and-her-pirates-booty/xbox-360-145420,Xbox 360,7.5,"Shooter, RPG",N,2012,10,18
+141,Great,Devil's Attorney,/games/devils-attorney/android-145462,Android,8.3,Strategy,N,2012,10,17
+142,Great,Devil's Attorney,/games/devils-attorney/iphone-145099,iPhone,8.3,Strategy,N,2012,10,17
+143,Okay,Code of Princess,/games/code-of-princess-135813/3ds-125676,Nintendo 3DS,6.9,"Action, RPG",N,2012,10,17
+144,Great,SunFlowers,/games/sun-flowers-134128/vita-132435,PlayStation Vita,8.0,Puzzle,N,2012,10,17
+145,Bad,007 Legends,/games/007-legends/xbox-360-132394,Xbox 360,4.5,Action,N,2012,10,16
+146,Amazing,Super Hexagon,/games/super-hexagon/iphone-143440,iPhone,9.0,Action,N,2012,9,19
+147,Great,Machinarium,/games/machinarium/ps3-110942,PlayStation 3,8.0,Adventure,N,2012,9,18
+148,Great,Final Fantasy Dimensions,/games/final-fantasy-dimensions/iphone-135306,iPhone,8.0,RPG,N,2012,9,18
+149,Great,They Bleed Pixels,/games/they-bleed-pixels/pc-141012,PC,8.2,Platformer,N,2012,9,18
+150,Good,Jet Set Radio,/games/jet-set-radio/vita-135073,PlayStation Vita,7.5,Action,N,2012,9,17
+151,Good,Jet Set Radio,/games/jet-set-radio/ps3-129168,PlayStation 3,7.5,Action,N,2012,9,17
+152,Good,Jet Set Radio,/games/jet-set-radio/xbox-360-129165,Xbox 360,7.5,Action,N,2012,9,17
+153,Great,Pro Evolution Soccer 2013,/games/pro-evolution-soccer-2013/xbox-360-133009,Xbox 360,8.5,Sports,Y,2012,9,17
+154,Amazing,F1 2012,/games/f1-2012/pc-130383,PC,9.0,Racing,Y,2012,9,17
+155,Good,Darksiders II,/games/darksiders-2/xbox-360-14336768,Xbox 360,7.5,Action,N,2012,8,14
+156,Good,Pitfall,/games/pitfall-working-title/iphone-137420,iPhone,7.0,Platformer,N,2012,8,13
+157,Great,Dust: An Elysian Tail,/games/dust-an-elysian-tail-139696/xbox-360-77719,Xbox 360,8.5,Platformer,N,2012,8,13
+158,Great,Hybrid,/games/hybrid-140542/xbox-360-37860,Xbox 360,8.0,Shooter,N,2012,8,13
+159,Mediocre,The Dark Knight Rises,/games/the-dark-knight-rises/iphone-130653,iPhone,5.5,Action,N,2012,8,10
+160,Good,10000000,/games/10000000/iphone-139135,iPhone,7.5,,N,2012,8,9
+161,Okay,The Political Machine 2012,/games/the-political-machine-2012/pc-131306,PC,6.5,Strategy,N,2012,8,9
+162,Amazing,Sound Shapes,/games/sound-shapes-queasy-games/ps3-135578,PlayStation 3,9.0,Platformer,Y,2012,8,8
+163,Amazing,Sound Shapes,/games/sound-shapes-queasy-games/vita-110145,PlayStation Vita,9.0,Platformer,Y,2012,8,8
+164,Okay,One Piece: Pirate Warriors,/games/one-piece-pirate-warriors/ps3-116782,PlayStation 3,6.0,Action,N,2012,10,8
+165,Great,XCOM: Enemy Unknown,/games/xcom-enemy-unknown/ps3-126073,PlayStation 3,8.2,Strategy,N,2012,10,8
+166,Amazing,Dishonored,/games/dishonored/xbox-360-112932,Xbox 360,9.2,Action,Y,2012,10,7
+167,Amazing,Dishonored,/games/dishonored/pc-112928,PC,9.2,Action,Y,2012,10,7
+168,Amazing,Dishonored,/games/dishonored/ps3-112931,PlayStation 3,9.2,Action,Y,2012,10,7
+169,Good,Angry Birds Trilogy,/games/angry-birds-trilogy/3ds-82424,Nintendo 3DS,7.0,"Puzzle, Action",N,2012,10,6
+170,Good,Angry Birds Trilogy,/games/angry-birds-trilogy/xbox-360-88826,Xbox 360,7.0,"Puzzle, Action",N,2012,10,6
+171,Good,Angry Birds Trilogy,/games/angry-birds-trilogy/ps3-135852,PlayStation 3,7.0,"Puzzle, Action",N,2012,10,6
+172,Great,Girls Like Robots,/games/girls-like-robots/iphone-145093,iPhone,8.5,Puzzle,N,2012,10,19
+173,Bad,Happy Wars,/games/happy-wars/xbox-360-64840,Xbox 360,4.0,Action,N,2012,10,19
+174,Bad,007 Legends,/games/007-legends/ps3-132391,PlayStation 3,4.5,Action,N,2012,10,16
+175,Amazing,Funky Smugglers,/games/funky-smugglers/iphone-145106,iPhone,9.0,Action,Y,2012,10,16
+176,Okay,Colour Bind,/games/colour-bind/pc-143757,PC,6.2,,N,2012,10,15
+177,Mediocre,WRC 3 FIA World Rally Championship,/games/wrc-3-fia-world-rally-championship/xbox-360-131357,Xbox 360,5.0,Racing,N,2012,10,15
+178,Mediocre,WRC 3 FIA World Rally Championship,/games/wrc-3-fia-world-rally-championship/pc-131360,PC,5.0,Racing,N,2012,10,15
+179,Mediocre,Retro City Rampage,/games/retro-city-rampage/ps3-128971,PlayStation 3,5.3,"Action, Adventure",N,2012,10,15
+180,Mediocre,Retro City Rampage,/games/retro-city-rampage/pc-129032,PC,5.3,"Action, Adventure",N,2012,10,15
+181,Great,Dance Central 3,/games/dance-central-3/xbox-360-135601,Xbox 360,8.0,Music,N,2012,10,15
+182,Mediocre,WRC 3 FIA World Rally Championship,/games/wrc-3-fia-world-rally-championship/ps3-131361,PlayStation 3,5.0,Racing,N,2012,10,15
+183,Mediocre,Snapshot,/games/snapshot/pc-143174,PC,5.0,Platformer,N,2012,9,17
+184,Amazing,F1 2012,/games/f1-2012/ps3-130382,PlayStation 3,9.0,Racing,Y,2012,9,17
+185,Great,Pro Evolution Soccer 2013,/games/pro-evolution-soccer-2013/ps3-133012,PlayStation 3,8.5,Sports,Y,2012,9,17
+186,Amazing,F1 2012,/games/f1-2012/xbox-360-130379,Xbox 360,9.0,Racing,Y,2012,9,17
+187,Great,Pro Evolution Soccer 2013,/games/pro-evolution-soccer-2013/pc-133014,PC,8.5,Sports,Y,2012,9,17
+188,Amazing,Borderlands 2,/games/borderlands-2/xbox-360-94188,Xbox 360,9.0,"Shooter, RPG",Y,2012,9,13
+189,Amazing,Borderlands 2,/games/borderlands-2/pc-94190,PC,9.0,"Shooter, RPG",Y,2012,9,13
+190,Great,Joe Danger: The Movie,/games/joe-danger-the-movie/xbox-360-115463,Xbox 360,8.0,Action,N,2012,9,13
+191,Amazing,Borderlands 2,/games/borderlands-2/ps3-94189,PlayStation 3,9.0,"Shooter, RPG",Y,2012,9,13
+192,Amazing,Sound Shapes,/games/sound-shapes-queasy-games/ps4-20007461,PlayStation 4,9.0,Platformer,Y,2012,8,8
+193,Amazing,Persona 4 Arena,/games/persona-4-arena/ps3-116910,PlayStation 3,9.0,Fighting,Y,2012,8,7
+194,Amazing,Persona 4 Arena,/games/persona-4-arena/xbox-360-116913,Xbox 360,9.0,Fighting,Y,2012,8,7
+195,Bad,Hell Yeah! Wrath of the Dead Rabbit,/games/hell-yeah-wrath-of-the-dead-rabbit/pc-129413,PC,4.9,Platformer,N,2012,10,4
+196,Bad,Hell Yeah! Wrath of the Dead Rabbit,/games/hell-yeah-wrath-of-the-dead-rabbit/xbox-360-129412,Xbox 360,4.9,Platformer,N,2012,10,4
+197,Mediocre,Retro City Rampage,/games/retro-city-rampage/vita-128972,PlayStation Vita,5.3,"Action, Adventure",N,2012,10,15
+198,Amazing,The Unfinished Swan,/games/the-unfinished-swan/ps3-133433,PlayStation 3,9.0,Puzzle,Y,2012,10,14
+199,Great,Tokyo Jungle,/games/tokyo-jungle-139049/ps3-85484,PlayStation 3,8.0,Adventure,N,2012,9,13
+200,Amazing,Halo 4,/games/halo-4/xbox-360-110563,Xbox 360,9.8,Shooter,Y,2012,11,1
+201,Amazing,Halo 4 (Limited Edition),/games/halo-4/xbox-360-134637,Xbox 360,9.8,Shooter,Y,2012,11,1
+202,Good,Zone of the Enders HD Collection,/games/zone-of-the-enders-hd-collection/ps3-110049,PlayStation 3,7.0,"Action, Compilation",N,2012,11,1
+203,Great,Harvest Moon: A New Beginning,/games/harvest-moon-hajimari-no-daichi/3ds-120299,Nintendo 3DS,8.3,Adventure,N,2012,11,1
+204,Good,Zone of the Enders HD Collection,/games/zone-of-the-enders-hd-collection/xbox-360-110060,Xbox 360,7.0,"Action, Compilation",N,2012,11,1
+205,Okay,Borderlands Legends,/games/borderlands-legends/iphone-145721,iPhone,6.5,"Action, RPG",N,2012,10,31
+206,Okay,Borderlands Legends,/games/borderlands-legends/ipad-145832,iPad,6.5,"Action, RPG",N,2012,10,31
+207,Amazing,Okami HD,/games/okami/ps3-136378,PlayStation 3,9.4,Adventure,Y,2012,10,30
+208,Mediocre,Ragnarok Odyssey,/games/ragnarok-odyssey/vita-117348,PlayStation Vita,5.0,RPG,N,2012,10,30
+209,Okay,Need for Speed Most Wanted,/games/need-for-speed-most-wanted-2012/iphone-135825,iPhone,6.9,"Racing, Action",N,2012,10,30
+210,Good,Pid,/games/pid/xbox-360-124089,Xbox 360,7.8,Platformer,N,2012,10,30
+211,Good,Pid,/games/pid/pc-124085,PC,7.8,Platformer,N,2012,10,30
+212,Good,Pid,/games/pid/ps3-124088,PlayStation 3,7.8,Platformer,N,2012,10,30
+213,Amazing,Need for Speed Most Wanted,/games/need-for-speed-most-wanted-2012/ps3-126560,PlayStation 3,9.0,"Racing, Action",Y,2012,10,30
+214,Great,Assassin's Creed III,/games/assassins-creed-iii/xbox-360-128701,Xbox 360,8.5,"Action, Adventure",N,2012,10,30
+215,Amazing,Need for Speed Most Wanted,/games/need-for-speed-most-wanted-2012/xbox-360-135486,Xbox 360,9.0,"Racing, Action",Y,2012,10,30
+216,Good,Assassin's Creed III: Liberation,/games/assassins-creed-vita/vita-115670,PlayStation Vita,7.2,Action,N,2012,10,30
+217,Great,Smart As...,/games/smart-as-135038/vita-98920,PlayStation Vita,8.5,"Educational, Puzzle",N,2012,10,30
+218,Great,Assassin's Creed III,/games/assassins-creed-iii/ps3-128700,PlayStation 3,8.5,"Action, Adventure",N,2012,10,30
+219,Amazing,Need for Speed Most Wanted,/games/need-for-speed-most-wanted-2012/pc-135628,PC,9.0,"Racing, Action",Y,2012,10,30
+220,Great,WWE '13,/games/wwe-13/ps3-127917,PlayStation 3,8.4,Wrestling,N,2012,10,29
+221,Okay,Street Fighter x Tekken,/games/street-fighter-x-tekken/vita-110720,PlayStation Vita,6.6,Fighting,N,2012,10,29
+222,Great,WWE '13,/games/wwe-13/xbox-360-127923,Xbox 360,8.4,Wrestling,N,2012,10,29
+223,Good,Chivalry: Medieval Warfare,/games/chivalry-medieval-warfare-142591/pc-75122,PC,7.9,Adventure,N,2012,10,29
+224,Good,Sonic Jump,/games/sonic-jump-2012/iphone-144482,iPhone,7.5,Platformer,N,2012,10,29
+225,Mediocre,F1 Race Stars,/games/f1-race-stars/xbox-360-137846,Xbox 360,5.2,Racing,N,2012,11,13
+226,Amazing,Call of Duty: Black Ops II,/games/call-of-duty-black-ops-ii/pc-126314,PC,9.3,Shooter,Y,2012,11,13
+227,Mediocre,F1 Race Stars,/games/f1-race-stars/ps3-137849,PlayStation 3,5.2,Racing,N,2012,11,13
+228,Mediocre,Midway Arcade Origins,/games/midway-arcade-origins/ps3-143385,PlayStation 3,5.5,"Action, Compilation",N,2012,11,13
+229,Mediocre,Midway Arcade Origins,/games/midway-arcade-origins/xbox-360-143382,Xbox 360,5.5,"Action, Compilation",N,2012,11,13
+230,Amazing,Call of Duty: Black Ops II,/games/call-of-duty-black-ops-ii/xbox-360-126311,Xbox 360,9.3,Shooter,Y,2012,11,13
+231,Amazing,Call of Duty: Black Ops II,/games/call-of-duty-black-ops-ii/ps3-126313,PlayStation 3,9.3,Shooter,Y,2012,11,13
+232,Okay,When Vikings Attack,/games/when-vikings-attack/ps3-135043,PlayStation 3,6.5,"Fighting, Action",N,2012,11,9
+233,Okay,When Vikings Attack,/games/when-vikings-attack/vita-135040,PlayStation Vita,6.5,"Fighting, Action",N,2012,11,9
+234,Mediocre,"Freakyforms Deluxe: Your Creations, Alive!",/games/freakyforms-deluxe-your-creations-alive/3ds-139655,Nintendo 3DS,5.0,Productivity,N,2012,11,8
+235,Mediocre,Painkiller: Hell & Damnation,/games/painkiller-hell-and-damnation/pc-136319,PC,5.0,Shooter,N,2012,11,7
+236,Great,Transformers Prime,/games/transformers-prime/3ds-130988,Nintendo 3DS,8.0,Action,N,2012,11,7
+237,Great,Angry Birds Star Wars,/games/star-wars-angry-birds/iphone-144485,iPhone,8.8,Puzzle,N,2012,11,7
+238,Good,Farming Simulator 2013,/games/farming-simulator-2013/pc-144241,PC,7.1,Simulation,N,2012,11,7
+239,Great,Paper Mario: Sticker Star,/games/paper-mario-3ds/3ds-77808,Nintendo 3DS,8.3,RPG,N,2012,11,6
+240,Okay,Lucius,/games/lucius-shiver-games/pc-83378,PC,6.0,Adventure,N,2012,11,6
+241,Mediocre,LittleBigPlanet Karting,/games/littlebigplanet-karting/ps3-128163,PlayStation 3,5.0,Racing,N,2012,11,6
+242,Good,Primal Carnage,/games/primal-carnage/pc-60854,PC,7.6,Shooter,N,2012,11,5
+243,Great,Natural Selection 2,/games/natural-selection-2/pc-904386,PC,8.0,Shooter,N,2012,11,5
+244,Okay,Symphonica: Grand Maestro,/games/symphonica-grand-maestro/iphone-141555,iPhone,6.0,Music,N,2012,11,5
+245,Amazing,Football Manager 2013,/games/football-manager-2013/mac-141666,Macintosh,9.0,"Sports, Simulation",Y,2012,11,3
+246,Amazing,The Walking Dead: The Game -- Episode 5: No Time Left,/games/the-walking-dead-season-1-episode-5/pc-135888,PC,9.5,Adventure,Y,2012,11,19
+247,Amazing,The Walking Dead: The Game -- Episode 5: No Time Left,/games/the-walking-dead-season-1-episode-5/ipad-135885,iPad,9.5,Adventure,Y,2012,11,19
+248,Amazing,The Walking Dead: The Game -- Episode 5: No Time Left,/games/the-walking-dead-season-1-episode-5/mac-135889,Macintosh,9.5,Adventure,Y,2012,11,19
+249,Amazing,The Walking Dead: The Game -- Episode 5: No Time Left,/games/the-walking-dead-season-1-episode-5/ps3-135887,PlayStation 3,9.5,Adventure,Y,2012,11,19
+250,Amazing,Football Manager 2013,/games/football-manager-2013/pc-141663,PC,9.0,"Sports, Simulation",Y,2012,11,3
+251,Good,Need for Speed Most Wanted,/games/need-for-speed-most-wanted-2012/vita-135721,PlayStation Vita,7.4,"Racing, Action",N,2012,11,2
+252,Bad,Orgarhythm,/games/orgarhythm-133846/vita-130950,PlayStation Vita,4.7,"Music, Action",N,2012,11,2
+253,Good,Sports Champions 2,/games/sports-champions-2/ps3-135395,PlayStation 3,7.6,"Sports, Action",N,2012,11,2
+254,Great,Kinect Party,/games/happy-action-theater-2/xbox-360-140195,Xbox 360,8.5,Party,N,2012,12,20
+255,Good,Sky Gamblers: Storm Raiders,/games/sky-gamblers-storm-raider/iphone-149216,iPhone,7.1,Action,N,2012,12,19
+256,Good,Oddworld: Stranger's Wrath HD,/games/oddworld-strangers-wrath/vita-110722,PlayStation Vita,7.5,"Action, Adventure",N,2012,12,19
+257,Good,AirBuccaneers,/games/airbuccaneers/pc-150858,PC,7.5,Action,N,2012,12,19
+258,Great,Theatrhythm Final Fantasy,/games/theatrhythm-final-fantasy/iphone-150082,iPhone,8.0,"Music, Action",N,2012,12,19
+259,Okay,Sing Party,/games/sing/wii-u-135741,Wii U,6.3,Music,N,2012,12,18
+260,Okay,Beatdown!,/games/beatdown/iphone-147890,iPhone,6.3,"Fighting, Action",N,2012,11,19
+261,Okay,Waking Mars,/games/waking-mars-148199/pc-148201,PC,6.5,Action,N,2012,11,19
+262,Okay,Waking Mars,/games/waking-mars-148199/iphone-129356,iPhone,6.5,Action,N,2012,11,19
+263,Amazing,Hitman: Absolution,/games/hitman-absolution/ps3-14348845,PlayStation 3,9.0,Action,Y,2012,11,18
+264,Amazing,Hitman: Absolution,/games/hitman-absolution/xbox-360-14348846,Xbox 360,9.0,Action,Y,2012,11,18
+265,Okay,ZombiU,/games/zombi-u/wii-u-135661,Wii U,6.3,Shooter,N,2012,11,18
+266,Good,Grand Theft Auto: Vice City,/games/grand-theft-aut-vice-city/iphone-146059,iPhone,7.7,"Action, Adventure",N,2012,12,18
+267,Good,Street Fighter X Mega Man,/games/street-fighter-x-mega-man/pc-149856,PC,7.0,Action,N,2012,12,18
+268,Good,Sonic & All-Stars Racing Transformed,/games/sonic-all-stars-racing-transformed/vita-133506,PlayStation Vita,7.0,"Racing, Action",N,2012,12,17
+269,Good,Sonic & All-Stars Racing Transformed,/games/sonic-all-stars-racing-transformed/3ds-133507,Nintendo 3DS,7.0,"Racing, Action",N,2012,12,17
+270,Good,The Sims 3: Seasons,/games/the-sims-3-seasons/pc-138921,PC,7.5,Simulation,N,2012,12,17
+271,Mediocre,Tank! Tank! Tank!,/games/tank-tank-tank/wii-u-135735,Wii U,5.8,Action,N,2012,12,14
+272,Good,Guardians of Middle-earth,/games/guardians-of-middle-earth/xbox-360-135298,Xbox 360,7.5,Battle,N,2012,12,14
+273,Okay,Ratchet & Clank: Full Frontal Assault,/games/ratchet-and-clank-full-frontal-assault/ps3-135296,PlayStation 3,6.4,Action,N,2012,12,14
+274,Bad,Page Chronica,/games/page-chronica/ps3-145412,PlayStation 3,4.1,Puzzle,N,2012,12,14
+275,Amazing,Hitman: Absolution,/games/hitman-absolution/pc-14251574,PC,9.0,Action,Y,2012,11,18
+276,Amazing,Batman: Arkham City -- Armored Edition,/games/batman-arkham-city/wii-u-110822,Wii U,9.5,Action,Y,2012,11,17
+277,Okay,Disney Epic Mickey 2: The Power of Two,/games/disney-epic-mickey-2-the-power-of-two/ps3-125841,PlayStation 3,6.0,"Action, Adventure",N,2012,11,17
+278,Okay,Disney Epic Mickey 2: The Power of Two,/games/disney-epic-mickey-2-the-power-of-two/xbox-360-125840,Xbox 360,6.0,"Action, Adventure",N,2012,11,17
+279,Good,Darksiders II,/games/darksiders-2/wii-u-110809,Wii U,7.5,Action,N,2012,11,17
+280,Great,Scribblenauts Unlimited,/games/scribblenauts-unlimited/wii-u-135731,Wii U,8.8,"Puzzle, Action",Y,2012,11,16
+281,Bad,Call of Duty: Black Ops Declassified,/games/call-of-duty-black-ops-declassified/vita-98928,PlayStation Vita,4.0,Shooter,N,2012,11,16
+282,Good,Fallen Enchantress,/games/elemental-fallen-enchantress/pc-101961,PC,7.9,Strategy,N,2012,11,16
+283,Good,Guns of Icarus Online,/games/guns-of-icarus-online/pc-115437,PC,7.3,Shooter,N,2012,11,16
+284,Mediocre,Miner Wars 2081,/games/miner-wars-2081/pc-21143,PC,5.0,Shooter,N,2012,12,14
+285,Good,Guardians of Middle-earth,/games/guardians-of-middle-earth/ps3-135301,PlayStation 3,7.5,Battle,N,2012,12,14
+286,Great,The Elder Scrolls V: Skyrim -- Dragonborn,/games/the-elder-scrolls-v-skyrim-dragonborn/xbox-360-146422,Xbox 360,8.8,RPG,N,2012,12,13
+287,Okay,Baldur's Gate -- Enhanced Edition,/games/baldurs-gate-enhanced-edition/ipad-130702,iPad,6.0,RPG,N,2012,12,13
+288,Okay,Black Knight Sword,/games/black-knight-sword/xbox-360-115069,Xbox 360,6.9,"Puzzle, Adventure",N,2012,12,13
+289,Okay,Black Knight Sword,/games/black-knight-sword/ps3-115068,PlayStation 3,6.9,"Puzzle, Adventure",N,2012,12,13
+290,Amazing,The Walking Dead: A Telltale Game Series -- Season One,/games/the-walking-dead-the-game/xbox-360-100888,Xbox 360,9.3,Adventure,Y,2012,12,12
+291,Great,Sonic & All-Stars Racing Transformed,/games/sonic-all-stars-racing-transformed/xbox-360-133505,Xbox 360,8.6,"Racing, Action",N,2012,11,15
+292,Amazing,New Super Mario Bros. U,/games/new-super-mario-bros-u/wii-u-135584,Wii U,9.1,Platformer,Y,2012,11,15
+293,Great,Sonic & All-Stars Racing Transformed,/games/sonic-all-stars-racing-transformed/ps3-133498,PlayStation 3,8.6,"Racing, Action",N,2012,11,15
+294,Great,Nintendo Land,/games/nintendo-land/wii-u-135744,Wii U,8.7,Party,Y,2012,11,15
+295,Good,ARC Squadron,/games/arc-squadron-145523/iphone-145520,iPhone,7.3,"Flight, Action",N,2012,11,13
+296,Good,Ninja Gaiden III: Razor's Edge,/games/ninja-gaiden-iii-razors-edge/wii-u-110811,Wii U,7.6,Action,N,2012,11,13
+297,Amazing,The Walking Dead: A Telltale Game Series -- Season One,/games/the-walking-dead-the-game/ps3-100887,PlayStation 3,9.3,Adventure,Y,2012,12,12
+298,Amazing,The Walking Dead -- Game of the Year Edition,/games/the-walking-dead-game-of-the-year-edition/pc-20008044,PC,9.3,Adventure,Y,2012,12,12
+299,Amazing,The Walking Dead: A Telltale Game Series -- Season One,/games/the-walking-dead-the-game/iphone-150119,iPhone,9.3,Adventure,Y,2012,12,12
+300,Good,Real Boxing,/games/real-boxing-147889/iphone-147888,iPhone,7.6,Sports,N,2012,11,30
+301,Great,Baldur's Gate -- Enhanced Edition,/games/baldurs-gate-enhanced-edition/pc-130328,PC,8.1,RPG,N,2012,11,30
+302,Amazing,Crashmo,/games/crashmo/3ds-144426,Nintendo 3DS,9.5,"Puzzle, Action",Y,2012,11,30
+303,Amazing,PlanetSide 2,/games/planetside-2/pc-14242769,PC,9.0,Shooter,Y,2012,11,30
+304,Okay,Disney Epic Mickey 2: The Power of Two,/games/disney-epic-mickey-2-the-power-of-two/wii-u-142951,Wii U,6.0,"Action, Adventure",N,2012,11,29
+305,Amazing,The Walking Dead: A Telltale Game Series -- Season One,/games/the-walking-dead-the-game/pc-100880,PC,9.3,Adventure,Y,2012,12,12
+306,Amazing,The Walking Dead: A Telltale Game Series -- Season One,/games/the-walking-dead-the-game/mac-100885,Macintosh,9.3,Adventure,Y,2012,12,12
+307,Good,Strike Suit Zero,/games/strike-suit-zero/pc-115112,PC,7.5,Shooter,N,2013,1,22
+308,Painful,Final Fantasy: All The Bravest,/games/final-fantasy-all-the-bravest-156962/iphone-156958,iPhone,2.5,RPG,N,2013,1,18
+309,Good,Tokyo Crash Mobs,/games/tokyo-crash-mobs/3ds-144441,Nintendo 3DS,7.7,"Puzzle, Action",N,2013,1,18
+310,Amazing,Ni no Kuni: Wrath of the White Witch,/games/ni-no-kuni/ps3-14284017,PlayStation 3,9.4,RPG,Y,2013,1,15
+311,Mediocre,Marvel's The Avengers: Battle For Earth,/games/marvels-the-avengers-battle-for-earth/wii-u-134289,Wii U,5.0,Action,N,2013,1,15
+312,Okay,Borderlands 2: Sir Hammerlock's Big Game Hunt,/games/borderlands-2-hammerlocks-big-game-hunt/xbox-360-150509,Xbox 360,6.9,"Shooter, RPG",N,2013,1,15
+313,Great,Assassin's Creed III,/games/assassins-creed-iii/pc-119437,PC,8.6,"Action, Adventure",Y,2012,11,23
+314,Okay,Chasing Aurora,/games/chasing-aurora/wii-u-135575,Wii U,6.0,Action,N,2012,11,22
+315,Great,Adventure Time: Hey Ice King! Why'd You Steal Our Garbage?,/games/adventure-time-hey-ice-king-whyd-you-steal-our-garbage/3ds-135984,Nintendo 3DS,8.5,Adventure,Y,2012,11,22
+316,Great,Madden NFL 13,/games/madden-nfl-2013/wii-128099,Wii,8.3,Sports,N,2012,11,21
+317,Good,Warriors Orochi 3 Hyper,/games/warriors-orochi-3-hyper/wii-u-142961,Wii U,7.0,Action,N,2012,11,29
+318,Good,Transformers Prime,/games/transformers-prime/wii-u-136308,Wii U,7.8,Action,N,2012,11,28
+319,Okay,Skylanders Battlegrounds,/games/skylanders-battlegrounds/iphone-146163,iPhone,6.6,Action,N,2012,11,28
+320,Good,Rage of the Gladiator,/games/rage-of-the-gladiator-2010/iphone-146969,iPhone,7.6,Action,N,2012,11,28
+321,Okay,FIFA Soccer 13,/games/fifa-2013/wii-u-136146,Wii U,6.0,Sports,N,2012,11,27
+322,Okay,Family Guy: Back to the Multiverse,/games/family-guy-back-to-the-multiverse/xbox-360-133934,Xbox 360,6.0,Adventure,N,2012,11,27
+323,Okay,Family Guy: Back to the Multiverse,/games/family-guy-back-to-the-multiverse/ps3-133931,PlayStation 3,6.0,Adventure,N,2012,11,27
+324,Mediocre,Little Inferno,/games/little-inferno/pc-136966,PC,5.0,Puzzle,N,2012,11,27
+325,Mediocre,Little Inferno,/games/little-inferno/wii-u-137620,Wii U,5.0,Puzzle,N,2012,11,27
+326,Amazing,The Walking Dead -- Game of the Year Edition,/games/the-walking-dead-game-of-the-year-edition/ps3-20008043,PlayStation 3,9.3,Adventure,Y,2012,12,12
+327,Amazing,The Walking Dead -- Game of the Year Edition,/games/the-walking-dead-game-of-the-year-edition/xbox-360-20008042,Xbox 360,9.3,Adventure,Y,2012,12,12
+328,Amazing,The Walking Dead: A Telltale Game Series -- Season One,/games/the-walking-dead-the-game/ipad-100886,iPad,9.3,Adventure,Y,2012,12,12
+329,Amazing,Minigore 2: Zombies,/games/minigore-2-zombies/iphone-149695,iPhone,9.1,Shooter,Y,2012,12,12
+330,Mediocre,Jet Set Radio,/games/jet-set-radio/iphone-138175,iPhone,5.6,Action,N,2012,12,12
+331,Good,Forge,/games/forge/pc-136254,PC,7.0,Shooter,N,2012,12,12
+332,Okay,Nancy Drew: The Deadly Device,/games/nancy-drew-the-deadly-device/pc-145847,PC,6.8,Adventure,N,2012,12,11
+333,Good,Into the Dead,/games/into-the-dead/iphone-149569,iPhone,7.0,Action,N,2012,12,10
+334,Mediocre,Just Dance 4,/games/just-dance-4/wii-u-135665,Wii U,5.3,Music,N,2012,12,10
+335,Okay,Borderlands 2: Sir Hammerlock's Big Game Hunt,/games/borderlands-2-hammerlocks-big-game-hunt/pc-150514,PC,6.9,"Shooter, RPG",N,2013,1,15
+336,Okay,Borderlands 2: Sir Hammerlock's Big Game Hunt,/games/borderlands-2-hammerlocks-big-game-hunt/ps3-150510,PlayStation 3,6.9,"Shooter, RPG",N,2013,1,15
+337,Great,DmC: Devil May Cry,/games/dmc/pc-134823,PC,8.9,Action,Y,2013,1,14
+338,Great,Unchained Blades,/games/unchained-blades/3ds-101274,Nintendo 3DS,8.0,RPG,N,2013,1,14
+339,Great,DmC: Devil May Cry,/games/dmc/ps3-85707,PlayStation 3,8.5,Action,Y,2013,1,14
+340,Good,The Earth Defense Force 2017 Portable,/games/the-earth-defense-force-2017/vita-137197,PlayStation Vita,7.5,Action,N,2013,1,14
+341,Bad,007 Legends,/games/007-legends/wii-u-142949,Wii U,4.2,Action,N,2013,1,14
+342,Mediocre,Wraithborne,/games/wraithborne/iphone-146959,iPhone,5.2,Action,N,2012,11,21
+343,Amazing,Persona 4 Golden,/games/shin-megami-tensei-persona-4/vita-116892,PlayStation Vita,9.3,RPG,Y,2012,11,21
+344,Amazing,Call of Duty: Black Ops II,/games/call-of-duty-black-ops-ii/wii-u-136081,Wii U,9.3,Shooter,Y,2012,11,21
+345,Mediocre,Rabbids Land,/games/rayman-raving-rabbids-for-wii-u/wii-u-110845,Wii U,5.0,Party,N,2012,11,21
+346,Good,Tekken Tag Tournament 2: Wii U Edition,/games/tekken-tag-tournament-2/wii-u-110807,Wii U,7.5,Fighting,N,2012,11,21
+347,Amazing,Far Cry 3,/games/far-cry-3/pc-53492,PC,9.0,Shooter,Y,2012,11,21
+348,Great,Madden NFL 13,/games/madden-nfl-2013/wii-u-110858,Wii U,8.3,Sports,N,2012,11,21
+349,Amazing,Far Cry 3,/games/far-cry-3/ps3-53488,PlayStation 3,9.0,Shooter,Y,2012,11,21
+350,Mediocre,Little Inferno,/games/little-inferno/mac-137618,Macintosh,5.0,Puzzle,N,2012,11,27
+351,Mediocre,Little Inferno,/games/little-inferno/ipad-162572,iPad,5.0,Puzzle,N,2012,11,27
+352,Mediocre,Little Inferno,/games/little-inferno/linux-137619,Linux,5.0,Puzzle,N,2012,11,27
+353,Mediocre,Little Inferno,/games/little-inferno/iphone-159505,iPhone,5.0,Puzzle,N,2012,11,27
+354,Great,Little Chomp,/games/little-chomp/iphone-148128,iPhone,8.0,Action,N,2012,11,26
+355,Amazing,Trine 2: Director's Cut,/games/trine-2/wii-u-135737,Wii U,9.0,Action,Y,2012,11,26
+356,Awful,LEGO The Lord of the Rings [Portable],/games/lego-the-lord-of-the-rings-portable/3ds-135997,Nintendo 3DS,3.8,"Action, Adventure",N,2012,11,26
+357,Awful,LEGO The Lord of the Rings [Portable],/games/lego-the-lord-of-the-rings-portable/vita-140079,PlayStation Vita,3.8,"Action, Adventure",N,2012,11,26
+358,Okay,LEGO The Lord of the Rings,/games/lego-the-lord-of-the-rings/xbox-360-135464,Xbox 360,6.8,"Action, Adventure",N,2012,11,26
+359,Great,Writer Rumble,/games/writer-rumble/iphone-149247,iPhone,8.2,"Puzzle, Word Game",N,2012,12,10
+360,Amazing,Mass Effect,/games/mass-effect/ps3-143827,PlayStation 3,9.0,RPG,Y,2012,12,10
+361,Great,Guilty Gear XX Accent Core Plus,/games/guilty-gear-xx-accent-core-plus/xbox-360-128867,Xbox 360,8.3,Fighting,N,2012,12,7
+362,Great,Guilty Gear XX Accent Core Plus,/games/guilty-gear-xx-accent-core-plus/ps3-128866,PlayStation 3,8.3,Fighting,N,2012,12,7
+363,Good,Uncharted: Fight For Fortune,/games/uncharted-fight-for-fortune/vita-146817,PlayStation Vita,7.0,"Card, Battle",N,2012,12,6
+364,Good,Modern Combat 4: Zero Hour,/games/modern-combat-4-zero-hour/iphone-143811,iPhone,7.8,Shooter,N,2012,12,6
+365,Okay,Wonderbook: Book  of Spells,/games/book-of-spells/ps3-135683,PlayStation 3,6.0,"Simulation, Adventure",N,2012,12,6
+366,Great,Rift: Storm Legion,/games/rift-storm-legion/pc-135457,PC,8.3,RPG,N,2012,12,4
+367,Amazing,Joe Danger,/games/joe-danger-touch/iphone-136836,iPhone,9.1,Action,Y,2013,1,14
+368,Great,DmC: Devil May Cry,/games/dmc/xbox-360-86431,Xbox 360,8.9,Action,Y,2013,1,14
+369,Mediocre,Anarchy Reigns,/games/anarchy-reigns/xbox-360-98770,Xbox 360,5.9,Action,N,2013,1,11
+370,Mediocre,Anarchy Reigns,/games/anarchy-reigns/ps3-95396,PlayStation 3,5.9,Action,N,2013,1,11
+371,Great,Kentucky Route Zero: Act 1,/games/kentucky-route-zero-154732/pc-115270,PC,8.3,Adventure,N,2013,1,11
+372,Okay,Primordia,/games/primordia/pc-140042,PC,6.8,Adventure,N,2013,1,11
+373,Amazing,Mutant Mudds,/games/mutant-mudds/iphone-149490,iPhone,9.1,Platformer,Y,2013,1,10
+374,Amazing,Far Cry 3,/games/far-cry-3/xbox-360-53491,Xbox 360,9.0,Shooter,Y,2012,11,21
+375,Amazing,Mass Effect 3 (Special Edition),/games/mass-effect-3/wii-u-135743,Wii U,9.5,RPG,N,2012,11,21
+376,Amazing,Nano Assault Neo,/games/nano-assault-neo/wii-u-142952,Wii U,9.0,Shooter,Y,2012,11,20
+377,Good,Disney Epic Mickey: Power of Illusion,/games/disney-epic-mickey-power-of-illusion/3ds-130576,Nintendo 3DS,7.0,"Action, Adventure",N,2012,11,20
+378,Great,Assassin's Creed III,/games/assassins-creed-iii/wii-u-110823,Wii U,8.5,"Action, Adventure",N,2012,11,20
+379,Amazing,Borderlands 2: Mr. Torgue's Campaign of Carnage,/games/borderlands-2-mr-torgues-campaign-of-carnage/pc-147951,PC,9.2,"Shooter, RPG",Y,2012,11,20
+380,Great,Scribblenauts Unlimited,/games/scribblenauts-unlimited/pc-135828,PC,8.8,"Puzzle, Action",Y,2012,11,20
+381,Amazing,Borderlands 2: Mr. Torgue's Campaign of Carnage,/games/borderlands-2-mr-torgues-campaign-of-carnage/xbox-360-147949,Xbox 360,9.2,"Shooter, RPG",Y,2012,11,20
+382,Great,PlayStation All-Stars Battle Royale,/games/playstation-all-stars-battle-royale/vita-135678,PlayStation Vita,8.0,Fighting,N,2012,11,20
+383,Good,Jetpack Joyride,/games/jetpack-joyride/psp-148152,PlayStation Portable,7.4,Platformer,N,2012,11,26
+384,Okay,LEGO The Lord of the Rings,/games/lego-the-lord-of-the-rings/ps3-135460,PlayStation 3,6.8,"Action, Adventure",N,2012,11,26
+385,Good,The Walking Dead: Assault,/games/the-walking-dead-assault/iphone-149294,iPhone,7.5,Adventure,N,2012,12,4
+386,Good,Miasmata,/games/miasmata/pc-149038,PC,7.9,Adventure,N,2012,12,4
+387,Good,Bladeslinger: Episode 1,/games/bladeslinger/iphone-119042,iPhone,7.2,Action,N,2012,12,3
+388,Mediocre,Funky Barn,/games/funky-barn-142959/wii-u-142960,Wii U,5.0,Simulation,N,2012,12,3
+389,Awful,ESPN Sports Connection,/games/sports-connection/wii-u-135664,Wii U,3.0,Sports,N,2012,12,3
+390,Great,Sonic & All-Stars Racing Transformed,/games/sonic-all-stars-racing-transformed/wii-u-139639,Wii U,8.8,"Racing, Action",N,2012,11,30
+391,Awful,Infestation: Survivor Stories,/games/the-war-z/pc-138069,PC,3.0,Action,N,2013,1,8
+392,Good,Labyrinth Legends,/games/labyrinth-legends/ps3-148868,PlayStation 3,7.7,RPG,N,2013,1,7
+393,Mediocre,Ace of Spades,/games/ace-of-spades-149688/pc-106949,PC,5.9,Shooter,N,2013,1,4
+394,Good,Monsters Inc. Run,/games/monsters-inc-run/iphone-150128,iPhone,7.7,Action,N,2013,1,3
+395,Good,Pudding Monsters,/games/pudding-monsters/iphone-149492,iPhone,7.3,"Puzzle, Adventure",N,2012,12,20
+396,Amazing,Borderlands 2: Mr. Torgue's Campaign of Carnage,/games/borderlands-2-mr-torgues-campaign-of-carnage/ps3-147950,PlayStation 3,9.2,"Shooter, RPG",Y,2012,11,20
+397,Great,PlayStation All-Stars Battle Royale,/games/playstation-all-stars-battle-royale/ps3-123511,PlayStation 3,8.0,Fighting,N,2012,11,20
+398,Amazing,NBA 2K13,/games/nba-2k13/wii-u-135328,Wii U,9.1,Sports,Y,2012,11,20
+399,Amazing,The Walking Dead: The Game -- Episode 5: No Time Left,/games/the-walking-dead-season-1-episode-5/xbox-360-135886,Xbox 360,9.5,Adventure,Y,2012,11,19
+400,Mediocre,NFL Quarterback Club '97,/games/nfl-quarterback-club-97/ps-293,PlayStation,5.0,Sports,N,1996,11,25
+401,Okay,Namco Museum Vol. 2,/games/namco-museum-vol-2/ps-730,PlayStation,6.0,"Action, Compilation",N,1996,11,25
+402,Awful,Raven Project,/games/raven-project/ps-184,PlayStation,3.0,Action,N,1996,11,25
+403,Okay,Silverload,/games/silverload/ps-585,PlayStation,6.0,Adventure,N,1996,11,25
+404,Good,Return Fire,/games/return-fire/ps-172,PlayStation,7.0,Action,N,1996,11,25
+405,Painful,Rise 2: Resurrection,/games/rise-2-resurrection/ps-174,PlayStation,2.0,Fighting,N,1996,11,25
+406,Okay,Robo Pit,/games/robo-pit/ps-175,PlayStation,6.5,Fighting,N,1996,11,25
+407,Okay,NBA ShootOut,/games/nba-shootout/ps-163,PlayStation,6.0,Sports,N,1996,11,25
+408,Bad,Beyond The Beyond,/games/beyond-the-beyond/ps-450,PlayStation,4.0,RPG,N,1996,11,21
+409,Good,Crash Bandicoot,/games/crash-bandicoot/ps-603,PlayStation,7.5,Platformer,N,1996,11,21
+410,Great,Bust-A-Move 2: Arcade Edition,/games/bust-a-move-2-arcade-edition/ps-684,PlayStation,8.0,Puzzle,N,1996,11,21
+411,Mediocre,CyberSpeed,/games/cyberspeed/ps-139,PlayStation,5.0,Racing,N,1996,11,21
+412,Good,D,/games/d/ps-688,PlayStation,7.0,Adventure,N,1996,11,21
+413,Okay,Assault Rigs,/games/assault-rigs/ps-134,PlayStation,6.0,Action,N,1996,11,21
+414,Mediocre,ESPN Extreme Games,/games/espn-extreme-games/ps-547,PlayStation,5.0,Sports,N,1996,11,21
+415,Good,Doom (1993),/games/doom/ps-671,PlayStation,7.0,Shooter,N,1996,11,21
+416,Great,Bottom of the 9th,/games/bottom-of-the-9th/ps-110,PlayStation,8.0,Sports,N,1996,11,21
+417,Good,Adidas Power Soccer,/games/adidas-power-soccer/ps-715,PlayStation,7.0,Sports,N,1996,11,21
+418,Painful,Agile Warrior F-111X,/games/agile-warrior-f-111x/ps-133,PlayStation,2.0,Action,N,1996,11,21
+419,Great,Alien Trilogy,/games/alien-trilogy/ps-452,PlayStation,8.0,Action,N,1996,11,21
+420,Okay,Alone in the Dark: One Eyed Jack's Revenge,/games/alone-in-the-dark-2/ps-677,PlayStation,6.0,Adventure,N,1996,11,21
+421,Good,Fade to Black,/games/fade-to-black/ps-146,PlayStation,7.0,Adventure,N,1996,11,21
+422,Good,Die Hard Trilogy,/games/die-hard-trilogy/ps-447,PlayStation,7.5,Action,N,1996,11,21
+423,Good,Discworld,/games/discworld/ps-583,PlayStation,7.0,Adventure,N,1996,11,21
+424,Okay,Battle Arena Toshinden 2,/games/battle-arena-toshinden-2/ps-451,PlayStation,6.0,Fighting,N,1996,11,21
+425,Okay,A-Train,/games/a-train/ps-670,PlayStation,6.0,Strategy,N,1996,11,21
+426,Bad,Casper -- A Haunting 3D Challenge,/games/casper-a-haunting-3d-challenge/ps-438,PlayStation,4.0,Action,N,1996,11,21
+427,Okay,Bogey Dead 6,/games/bogey-dead-6/ps-449,PlayStation,6.0,"Flight, Action",N,1996,11,21
+428,Great,Namco Museum Vol. 1,/games/namco-museum-vol-1/ps-702,PlayStation,8.0,"Action, Compilation",N,1996,11,25
+429,Good,Road & Track Presents: The Need for Speed,/games/road-and-track-presents-the-need-for-speed/ps-1864,PlayStation,7.0,Racing,N,1996,11,25
+430,Okay,Romance of the Three Kingdoms IV: Wall of Fire,/games/romance-of-the-three-kingdoms-iv-wall-of-fire/ps-478,PlayStation,6.0,Strategy,N,1996,11,25
+431,Good,PGA Tour '96,/games/pga-tour-96/ps-165,PlayStation,7.0,Sports,N,1996,11,25
+432,Good,Rayman,/games/rayman/ps-69,PlayStation,7.0,Platformer,N,1996,11,25
+433,Okay,Raiden Project,/games/raiden-project/ps-720,PlayStation,6.0,Shooter,N,1996,11,25
+434,Great,Andretti Racing,/games/andretti-racing/ps-703,PlayStation,8.0,Racing,N,1996,11,21
+435,Good,Discworld,/games/discworld/ps-583,PlayStation,7.0,Adventure,N,1996,11,21
+436,Good,Die Hard Trilogy,/games/die-hard-trilogy/ps-447,PlayStation,7.5,Action,N,1996,11,21
+437,Awful,Gunship,/games/gunship-23429/ps-280,PlayStation,3.0,Simulation,N,1996,11,25
+438,Okay,Olympic Summer Games: Atlanta '96,/games/olympic-summer-games-atlanta-96-808731/ps-551,PlayStation,6.0,Sports,N,1996,11,25
+439,Unbearable,Revolution X,/games/revolution-x/ps-689,PlayStation,1.0,Action,N,1996,11,25
+440,Bad,Shockwave Assault,/games/shockwave-assault/ps-679,PlayStation,4.0,Action,N,1996,11,25
+441,Bad,HardBall 5,/games/hardball-5/ps-140,PlayStation,4.0,Sports,N,1996,11,25
+442,Good,Twisted Metal [1996],/games/twisted-metal-1996/ps-444,PlayStation,7.0,Action,N,1996,11,26
+443,Amazing,WipEout XL,/games/wipeout-2097/ps-473,PlayStation,9.0,Racing,Y,1996,11,26
+444,Great,WipEout,/games/wipeout/ps-192,PlayStation,8.0,Racing,N,1996,11,26
+445,Great,Tobal No. 1,/games/tobal-no-1/ps-743,PlayStation,8.7,Fighting,Y,1996,11,26
+446,Great,Star Gladiator Episode 1: Final Crusade,/games/star-gladiator-episode-1-final-crusade/ps-461,PlayStation,8.0,Fighting,N,1996,11,26
+447,Good,Starfighter,/games/starfighter/ps-287,PlayStation,7.0,Action,N,1996,11,26
+448,Good,Battle Arena Toshinden,/games/battle-arena-toshinden/ps-716,PlayStation,7.0,Fighting,N,1996,11,21
+449,Good,Destruction Derby,/games/destruction-derby/ps-144,PlayStation,7.0,"Racing, Action",N,1996,11,21
+450,Great,Aquanaut's Holiday,/games/aquanauts-holiday/ps-548,PlayStation,8.0,Simulation,N,1996,11,21
+451,Painful,Creature Shock (Special Edition),/games/creature-shock/ps-136,PlayStation,2.0,Action,N,1996,11,21
+452,Good,Air Combat,/games/air-combat/ps-393,PlayStation,7.0,"Flight, Action",N,1996,11,21
+453,Good,Descent,/games/descent-1995/ps-143,PlayStation,7.0,Action,N,1996,11,21
+454,Mediocre,Cyber Sled,/games/cyber-sled/ps-138,PlayStation,5.0,Action,N,1996,11,21
+455,Good,DEFCON 5,/games/defcon-5/ps-142,PlayStation,7.0,Action,N,1996,11,21
+456,Mediocre,The King of Fighters '95,/games/the-king-of-fighters-95/ps-2072,PlayStation,5.0,Fighting,N,1996,11,25
+457,Great,Jumping Flash! 2,/games/jumping-flash-2/ps-577,PlayStation,8.0,Platformer,N,1996,11,25
+458,Bad,Epidemic,/games/epidemic/ps-299,PlayStation,4.0,Action,N,1996,11,25
+459,Mediocre,Philosoma,/games/philosoma/ps-166,PlayStation,5.0,Action,N,1996,11,25
+460,Mediocre,NBA In the Zone,/games/nba-in-the-zone-36223/ps-164,PlayStation,5.0,Sports,N,1996,11,25
+461,Good,Magic Carpet,/games/magic-carpet/ps-159,PlayStation,7.5,Action,N,1996,11,25
+462,Painful,Power Serve 3D Tennis,/games/power-serve-3d-tennis/ps-167,PlayStation,2.0,Sports,N,1996,11,25
+463,Great,Resident Evil [1996],/games/resident-evil/ps-610,PlayStation,8.7,"Action, Adventure",N,1996,11,25
+464,Okay,NCAA GameBreaker,/games/ncaa-gamebreaker/ps-724,PlayStation,6.8,Sports,N,1996,11,25
+465,Okay,Project: Horned Owl,/games/project-horned-owl/ps-706,PlayStation,6.0,Shooter,N,1996,11,25
+466,Okay,Frank Thomas: Big Hurt Baseball,/games/frank-thomas-big-hurt-baseball/pc-672,PC,6.0,Sports,N,1996,11,25
+467,Good,Goal Storm,/games/goal-storm/ps-150,PlayStation,7.0,Sports,N,1996,11,25
+468,Awful,In the Hunt,/games/in-the-hunt/ps-70,PlayStation,3.0,Action,N,1996,11,25
+469,Good,International Track & Field,/games/international-track-field/ps-12,PlayStation,7.0,Sports,N,1996,11,25
+470,Painful,Novastorm,/games/novastorm/ps-554,PlayStation,2.0,Shooter,N,1996,11,25
+471,Great,PO'ed,/games/poed/ps-2098,PlayStation,8.0,Action,N,1996,11,25
+472,Okay,NBA Jam: Tournament Edition,/games/nba-jam-tournament-edition/ps-701,PlayStation,6.5,Sports,N,1996,11,25
+473,Good,WWF Wrestlemania: The Arcade Game,/games/wwf-wrestlemania/ps-714,PlayStation,7.0,Wrestling,N,1996,11,26
+474,Good,Williams Arcade's Greatest Hits,/games/williams-arcades-greatest-hits/ps-202,PlayStation,7.0,Compilation,N,1996,11,26
+475,Okay,Tetris Plus,/games/tetris-plus/ps-725,PlayStation,6.0,Puzzle,N,1996,11,26
+476,Mediocre,Slam 'n Jam '96: Featuring Magic and Kareem,/games/slam-n-jam-96-featuring-magic-and-kareem/ps-708,PlayStation,5.0,Sports,N,1996,11,26
+477,Bad,V-Tennis,/games/v-tennis/ps-712,PlayStation,4.0,Sports,N,1996,11,26
+478,Good,Tokyo Highway Battle,/games/tokyo-highway-battle/ps-185,PlayStation,7.0,Racing,N,1996,11,26
+479,Mediocre,Zero Divide,/games/zero-divide/ps-193,PlayStation,5.0,Fighting,N,1996,11,26
+480,Amazing,X-COM: UFO Defense,/games/ufo-enemy-unknown/ps-686,PlayStation,9.0,Strategy,Y,1996,11,26
+481,Okay,Darkstalkers: The Night Warriors,/games/darkstalkers-the-night-warriors/ps-141,PlayStation,6.5,Fighting,N,1996,11,21
+482,Good,FIFA Soccer '96,/games/fifa-soccer-96/ps-542,PlayStation,7.8,Sports,N,1996,11,21
+483,Bad,Mortal Kombat Trilogy,/games/mortal-kombat-trilogy/n64-454,Nintendo 64,4.1,Fighting,N,1996,11,20
+484,Amazing,Wave Race 64,/games/wave-race-64/n64-81,Nintendo 64,9.7,Racing,Y,1996,11,15
+485,Mediocre,Battle Arena Toshinden Remix,/games/battle-arena-toshinden-remix/saturn-195,Saturn,5.0,Fighting,N,1996,11,15
+486,Bad,Cruis'n USA,/games/cruisn-usa/n64-498,Nintendo 64,4.0,Racing,N,1996,11,14
+487,Mediocre,Batman Forever: The Arcade Game,/games/batman-forever/ps-318,PlayStation,5.0,Action,N,1996,11,2
+488,Great,Pilotwings 64,/games/pilotwings-64/n64-83,Nintendo 64,8.2,Flight,N,1996,9,25
+489,Mediocre,Road Rash,/games/road-rash/ps-102,PlayStation,5.0,"Racing, Action",N,1996,11,25
+490,Good,Ridge Racer [1995],/games/ridge-racer-1995/ps-173,PlayStation,7.5,Racing,N,1996,11,25
+491,Good,Shellshock,/games/shellshock/ps-177,PlayStation,7.0,Action,N,1996,11,25
+492,Good,SimCity 2000,/games/simcity-2000/ps-680,PlayStation,7.0,Strategy,N,1996,11,25
+493,Good,Street Fighter Alpha: Warriors' Dreams,/games/street-fighter-alpha/ps-181,PlayStation,7.0,Fighting,N,1996,11,25
+494,Awful,The Hive,/games/the-hive/ps-693,PlayStation,3.0,Action,N,1996,11,25
+495,Good,Loaded,/games/loaded/ps-157,PlayStation,7.5,Shooter,N,1996,11,25
+496,Unbearable,Revolution X,/games/revolution-x/ps-689,PlayStation,1.0,Action,N,1996,11,25
+497,Okay,Olympic Summer Games: Atlanta '96,/games/olympic-summer-games-atlanta-96-808731/ps-551,PlayStation,6.0,Sports,N,1996,11,25
+498,Good,NBA Live '96,/games/nba-live-96/ps-171,PlayStation,7.0,Sports,N,1996,11,25
+499,Painful,Psychic Detective,/games/psychic-detective/ps-526,PlayStation,2.0,Adventure,N,1996,11,25
+500,Amazing,NHL FaceOff,/games/nhl-faceoff/ps-555,PlayStation,9.0,Sports,N,1996,11,25
+501,Great,NFL GameDay,/games/nfl-gameday/ps-553,PlayStation,8.0,Sports,N,1996,11,25
+502,Awful,Kileak: The DNA Imperative,/games/kileak-the-dna-imperative/ps-718,PlayStation,3.0,Action,N,1996,11,25
+503,Awful,Raven Project,/games/raven-project/ps-184,PlayStation,3.0,Action,N,1996,11,25
+504,Okay,Silverload,/games/silverload/ps-585,PlayStation,6.0,Adventure,N,1996,11,25
+505,Great,Formula 1,/games/formula-1/ps-106,PlayStation,8.0,Racing,N,1996,11,25
+506,Great,Worms,/games/worms/ps-277,PlayStation,8.0,Strategy,N,1996,11,26
+507,Mediocre,Zoop,/games/zoop/ps-721,PlayStation,5.0,Puzzle,N,1996,11,26
+508,Painful,Space Griffon,/games/space-griffon/ps-709,PlayStation,2.0,Action,N,1996,11,26
+509,Amazing,Tekken 2,/games/tekken-2/ps-475,PlayStation,9.0,Fighting,Y,1996,11,26
+510,Great,Warhawk,/games/warhawk/ps-189,PlayStation,8.7,"Flight, Action",N,1996,11,26
+511,Good,Rayman,/games/rayman/ps-69,PlayStation,7.0,Platformer,N,1996,11,25
+512,Okay,Romance of the Three Kingdoms IV: Wall of Fire,/games/romance-of-the-three-kingdoms-iv-wall-of-fire/ps-478,PlayStation,6.0,Strategy,N,1996,11,25
+513,Bad,Advanced Dungeons & Dragons: Iron & Blood -- Warriors of Ravenloft,/games/advanced-dungeons-dragons-iron-blood-warriors-of-ravenloft/ps-303,PlayStation,4.0,Fighting,N,1996,11,25
+514,Amazing,Super Mario 64,/games/super-mario-64/n64-606,Nintendo 64,9.8,Platformer,Y,1996,9,25
+515,Good,Baku Baku,/games/baku-baku/saturn-194,Saturn,7.0,Puzzle,N,1996,6,18
+516,Great,The Walking Dead: The Game -- Episode 1: A New Day,/games/the-walking-dead-season-1-episode-1/xbox-360-135866,Xbox 360,8.5,Adventure,N,1970,1,1
+517,Okay,Olympic Soccer,/games/olympic-soccer/ps-552,PlayStation,6.0,Sports,N,1996,11,25
+518,Bad,Off-World Interceptor Extreme,/games/off-world-interceptor-extreme/ps-704,PlayStation,4.0,Action,N,1996,11,25
+519,Okay,Gex,/games/gex/ps-149,PlayStation,6.0,Platformer,N,1996,11,25
+520,Mediocre,Skeleton Warriors,/games/skeleton-warriors/ps-707,PlayStation,5.0,Action,N,1996,11,25
+521,Mediocre,Johnny Bazookatone,/games/johnny-bazookatone/ps-674,PlayStation,5.0,Platformer,N,1996,11,25
+522,Good,PGA Tour '96,/games/pga-tour-96/ps-165,PlayStation,7.0,Sports,N,1996,11,25
+523,Great,Namco Museum Vol. 1,/games/namco-museum-vol-1/ps-702,PlayStation,8.0,"Action, Compilation",N,1996,11,25
+524,Good,Road & Track Presents: The Need for Speed,/games/road-and-track-presents-the-need-for-speed/ps-1864,PlayStation,7.0,Racing,N,1996,11,25
+525,Great,Mario Kart 64,/games/mario-kart/n64-502,Nintendo 64,8.1,"Racing, Action",Y,1997,2,20
+526,Good,Rally Cross,/games/rally-cross/ps-757,PlayStation,7.0,Racing,N,1997,2,20
+527,Okay,Spider,/games/spider/ps-614,PlayStation,6.0,Action,N,1997,2,14
+528,Okay,Grid Runner,/games/grid-runner/ps-434,PlayStation,6.0,Action,N,1997,2,10
+529,Good,Virtual Pool,/games/virtual-pool/ps-731,PlayStation,7.0,Sports,N,1997,2,10
+530,Great,Pro-Pinball,/games/pro-pinball/ps-756,PlayStation,8.0,Pinball,N,1997,2,5
+531,Good,Deception: Invitation to Darkness,/games/deception-invitation-to-darkness/ps-755,PlayStation,7.0,Strategy,N,1997,2,3
+532,Good,Peak Performance,/games/peak-performance/ps-2100,PlayStation,7.0,Racing,N,1997,4,29
+533,Painful,Independence Day,/games/independence-day/ps-1860,PlayStation,2.0,Action,N,1997,4,23
+534,Okay,Buster Bros. Collection,/games/buster-bros-collection/ps-759,PlayStation,6.0,Action,N,1997,4,21
+535,Bad,Re-Loaded: The Hardcore Sequel,/games/re-loaded-the-hardcore-sequel/ps-41,PlayStation,4.0,Shooter,N,1996,12,24
+536,Good,Destruction Derby 2,/games/destruction-derby-2/ps-7,PlayStation,7.2,Racing,N,1996,12,23
+537,Great,Blood Omen: Legacy of Kain,/games/blood-omen-legacy-of-kain/ps-2024,PlayStation,8.5,"Action, RPG",Y,1997,1,31
+538,Okay,Tunnel B-1,/games/tunnel-b-1/ps-58,PlayStation,6.0,Action,N,1997,1,30
+539,Good,Doom 64,/games/doom/n64-503,Nintendo 64,7.4,Shooter,N,1997,1,28
+540,Great,NHL FaceOff '97,/games/nhl-faceoff-97/ps-753,PlayStation,8.0,Sports,N,1997,1,28
+541,Amazing,Super Puzzle Fighter II Turbo,/games/super-puzzle-fighter-ii-turbo/ps-728,PlayStation,9.0,"Puzzle, Action",Y,1997,1,27
+542,Mediocre,NBA Hang Time,/games/nba-hang-time/n64-270,Nintendo 64,5.4,Sports,N,1997,1,27
+543,Amazing,Suikoden,/games/suikoden/ps-443,PlayStation,9.0,RPG,N,1997,1,22
+544,Okay,Battle Stations,/games/battle-stations/ps-758,PlayStation,6.0,Strategy,N,1997,4,16
+545,Great,Nanotek Warrior,/games/nanotek-warrior/ps-748,PlayStation,8.0,Action,N,1997,4,14
+546,Okay,Rush Hour,/games/rush-hour/ps-746,PlayStation,6.0,Racing,N,1997,4,14
+547,Good,BRAHMA Force: The Assault On Beltlogger 9,/games/brahma-force-the-assault-on-beltlogger-9/ps-735,PlayStation,7.0,Action,N,1997,4,10
+548,Great,Vandal Hearts,/games/vandal-hearts/ps-727,PlayStation,8.0,RPG,N,1997,4,9
+549,Great,MechWarrior 2,/games/mechwarrior-2/ps-89,PlayStation,8.0,Simulation,N,1997,4,8
+550,Good,VR Baseball '97,/games/vr-baseball-97/ps-742,PlayStation,7.0,Sports,N,1997,4,7
+551,Okay,Need for Speed II,/games/need-for-speed-collection/ps-739,PlayStation,6.0,Racing,N,1997,4,3
+552,Okay,Samurai Shodown III: Blades of Blood,/games/samurai-shodown-best-collection/ps-101,PlayStation,6.5,Fighting,N,1996,12,20
+553,Okay,Mortal Kombat Trilogy,/games/mortal-kombat-trilogy/ps-462,PlayStation,6.0,Fighting,N,1996,12,19
+554,Mediocre,Pitball,/games/pitball/ps-308,PlayStation,5.0,Action,N,1996,12,18
+555,Mediocre,MLB Pennant Race,/games/mlb-pennant-race/ps-80,PlayStation,5.0,Sports,N,1996,12,17
+556,Great,Tempest X3: An Inter-Galactic Battle Zone,/games/tempest-x3-an-inter-galactic-battle-zone/ps-40,PlayStation,8.0,Action,N,1996,12,17
+557,Mediocre,Project Overkill,/games/project-overkill/ps-169,PlayStation,5.0,Action,N,1997,1,21
+558,Good,Crusader: No Remorse,/games/crusader-no-remorse/ps-752,PlayStation,7.0,Action,N,1997,1,21
+559,Great,VR Golf '97,/games/vr-golf-97/ps-751,PlayStation,8.0,Sports,N,1997,1,20
+560,Awful,Iron Man / XO Manowar in Heavy Metal,/games/iron-man-xo-manowar-in-heavy-metal/ps-750,PlayStation,3.0,Action,N,1997,1,15
+561,Great,Disruptor,/games/disruptor/ps-135,PlayStation,8.0,Shooter,N,1997,1,13
+562,Good,Final Doom,/games/final-doom/ps-446,PlayStation,7.0,Action,N,1997,1,7
+563,Good,Twisted Metal 2,/games/twisted-metal-2/ps-325,PlayStation,7.3,Action,N,1997,1,7
+564,Good,NFL GameDay 97,/games/nfl-gameday-97/ps-326,PlayStation,7.8,Sports,N,1997,1,6
+565,Great,Jet Moto,/games/jet-moto/ps-442,PlayStation,8.0,Racing,N,1997,1,3
+566,Bad,FIFA Soccer 64,/games/fifa-97/n64-767,Nintendo 64,4.2,Sports,N,1997,4,1
+567,Great,Command & Conquer (1997),/games/command-and-conquer/ps-500,PlayStation,8.0,Strategy,N,1997,3,31
+568,Okay,Mega Man 8,/games/mega-man-8/ps-561,PlayStation,6.0,Action,N,1997,3,31
+569,Okay,Big Bass World Championship,/games/big-bass-world-championship/ps-729,PlayStation,6.0,Hunting,N,1997,3,27
+570,Amazing,Blast Corps,/games/blast-corps-138193/n64-416,Nintendo 64,9.0,Action,Y,1997,3,26
+571,Great,NBA Live '97,/games/nba-live-97/ps-529,PlayStation,8.0,Sports,N,1997,3,21
+572,Amazing,NBA ShootOut '97,/games/nba-shootout-97/ps-740,PlayStation,9.0,Sports,Y,1997,3,18
+573,Great,Turok: Dinosaur Hunter,/games/turok-dinosaur-hunter/n64-425,Nintendo 64,8.6,Shooter,N,1997,3,11
+574,Unbearable,The Crow: City of Angels,/games/the-crow-city-of-angels/ps-738,PlayStation,1.0,Action,N,1997,3,11
+575,Mediocre,Star Wars: Dark Forces,/games/star-wars-dark-forces/ps-27,PlayStation,5.0,Action,N,1996,12,13
+576,Amazing,Tomb Raider -- Featuring Lara Croft,/games/tomb-raider-featuring-lara-croft/ps-97,PlayStation,9.3,Adventure,N,1996,12,13
+577,Okay,Pandemonium,/games/magical-hoppers/ps-611,PlayStation,6.6,Platformer,N,1996,12,13
+578,Good,Cool Boarders,/games/cool-boarders/ps-71,PlayStation,7.0,Sports,N,1996,12,13
+579,Amazing,NBA In the Zone 2,/games/nba-in-the-zone-2/ps-331,PlayStation,9.0,Sports,N,1996,12,12
+580,Great,Street Fighter Alpha 2,/games/street-fighter-alpha-2/ps-476,PlayStation,8.5,Fighting,N,1996,12,11
+581,Bad,TNN Motorsports Hardcore 4X4,/games/hard-core-4x4/ps-747,PlayStation,4.0,Racing,N,1997,1,3
+582,Good,Black Dawn,/games/black-dawn/ps-11,PlayStation,7.5,Simulation,N,1997,1,2
+583,Okay,Namco Museum Vol. 3,/games/namco-museum-vol-3/ps-733,PlayStation,6.0,"Action, Compilation",N,1997,3,11
+584,Bad,Crypt Killer,/games/crypt-killer/ps-734,PlayStation,4.0,Action,N,1997,3,7
+585,Amazing,Carnage Heart,/games/carnage-heart/ps-304,PlayStation,9.2,Strategy,N,1997,3,5
+586,Great,Soul Blade,/games/soul-blade/ps-2117,PlayStation,8.3,Fighting,Y,1997,3,3
+587,Okay,Hi-Octane,/games/hi-octane/ps-152,PlayStation,6.0,Racing,N,1997,3,2
+588,Okay,Star Wars: Shadows of the Empire,/games/star-wars-shadows-of-the-empire/n64-415,Nintendo 64,6.5,Action,N,1996,12,9
+589,Good,Wayne Gretzky's 3D Hockey,/games/wayne-gretzkys-3d-hockey/n64-765,Nintendo 64,7.1,Sports,N,1996,12,5
+590,Okay,Killer Instinct Gold,/games/killer-instinct-gold/n64-499,Nintendo 64,6.5,Fighting,N,1996,12,4
+591,Awful,Spot Goes to Hollywood,/games/spot-goes-to-hollywood/ps-565,PlayStation,3.0,Platformer,N,1996,11,26
+592,Okay,Space Hulk: Vengeance of the Blood Angels,/games/space-hulk-vengeance-of-the-blood-angels/ps-533,PlayStation,6.0,Action,N,1996,11,26
+593,Good,Tekken,/games/tekken/ps-182,PlayStation,7.5,Fighting,N,1996,11,26
+594,Good,VR Soccer '96,/games/vr-soccer/ps-14,PlayStation,7.7,Sports,N,1996,11,26
+595,Awful,Top Gun: Fire At Will,/games/top-gun-fire-at-will/ps-682,PlayStation,3.0,Simulation,N,1996,11,26
+596,Mediocre,World Cup Golf: Professional Edition,/games/world-cup-golf-hyatt-dorado-beach/ps-685,PlayStation,5.0,Sports,N,1996,11,26
+597,Great,Tobal No. 1,/games/tobal-no-1/ps-743,PlayStation,8.7,Fighting,Y,1996,11,26
+598,Good,Twisted Metal [1996],/games/twisted-metal-1996/ps-444,PlayStation,7.0,Action,N,1996,11,26
+599,Amazing,WipEout XL,/games/wipeout-2097/ps-473,PlayStation,9.0,Racing,Y,1996,11,26
+600,Awful,Doraemon Nobita & The 3 Fairy Spirit Stones,/games/doraemon-nobita-the-3-fairy-spirit-stones/n64-1901,Nintendo 64,3.0,Platformer,N,1997,6,11
+601,Great,Xevious 3D/G+,/games/xevious-3d-g/ps-2134,PlayStation,8.0,Shooter,N,1997,6,11
+602,Good,Thunder Truck Rally,/games/thunder-truck-rally/ps-2125,PlayStation,7.0,Racing,N,1997,6,3
+603,Bad,NBA Hang Time,/games/nba-hang-time/ps-264,PlayStation,4.0,Sports,N,1997,6,3
+604,Mediocre,All-Star Baseball '97 Featuring Frank Thomas,/games/all-star-baseball-97-featuring-frank-thomas/ps-2017,PlayStation,5.0,Sports,N,1997,6,2
+605,Bad,War Gods,/games/war-gods/n64-463,Nintendo 64,4.3,Fighting,N,1997,5,29
+606,Okay,Broken Helix,/games/broken-helix/ps-441,PlayStation,6.0,"Action, Adventure",N,1997,5,29
+607,Good,Codename: Tenka,/games/codename-tenka/ps-2033,PlayStation,7.0,Shooter,N,1997,5,27
+608,Bad,War Gods,/games/war-gods/ps-268,PlayStation,4.0,Fighting,N,1997,5,23
+609,Mediocre,Hexen,/games/hexen/ps-2065,PlayStation,5.0,Action,N,1997,5,23
+610,Good,Descent Maximum,/games/descent-maximum/ps-2043,PlayStation,7.5,Action,N,1997,5,23
+611,Mediocre,The City of Lost Children,/games/the-city-of-lost-children/ps-2031,PlayStation,5.0,Adventure,N,1997,5,23
+612,Bad,Wing Commander IV: The Price of Freedom,/games/wing-commander-iv-the-price-of-freedom/ps-1876,PlayStation,4.0,Simulation,N,1997,5,21
+613,Okay,Overblood,/games/overblood/ps-564,PlayStation,6.0,Adventure,N,1997,5,20
+614,Great,Wild ARMs,/games/wild-arms/ps-1875,PlayStation,8.0,RPG,N,1997,5,20
+615,Good,Rage Racer,/games/rage-racer/ps-505,PlayStation,7.0,Racing,N,1997,5,19
+616,Great,Star Fox 64,/games/star-fox-64/n64-419,Nintendo 64,8.7,"Flight, Action",N,1997,5,16
+617,Mediocre,Swagman,/games/swagman/ps-579,PlayStation,5.0,Action,N,1997,5,15
+618,Okay,Grand Slam,/games/grand-slam/ps-2062,PlayStation,6.0,Sports,N,1997,5,13
+619,Amazing,Triple Play '98,/games/triple-play-98/ps-1874,PlayStation,9.2,Sports,N,1997,5,13
+620,Okay,Norse By Norse West: The Return of the Lost Vikings,/games/norse-by-norse-west-the-return-of-the-lost-vikings/ps-2093,PlayStation,6.0,Platformer,N,1997,5,12
+621,Good,Tail of the Sun,/games/tail-of-the-sun/ps-2122,PlayStation,7.0,Adventure,N,1997,5,9
+622,Okay,Goal Storm '97,/games/goal-storm-97/ps-1857,PlayStation,6.0,Sports,N,1997,5,6
+623,Mediocre,Sentient [1997],/games/sentient-1997/ps-2115,PlayStation,5.0,Adventure,N,1997,5,1
+624,Mediocre,Psychic Force,/games/psychic-force/ps-57,PlayStation,5.0,Fighting,N,1997,4,29
+625,Good,NHL Powerplay '98,/games/nhl-powerplay-98/ps-2156,PlayStation,7.0,Sports,N,1997,8,28
+626,Good,Madden NFL '98,/games/madden-football-64/ps-2079,PlayStation,7.0,Sports,N,1997,8,26
+627,Mediocre,The Lost World: Jurassic Park,/games/the-lost-world-jurassic-park/ps-2124,PlayStation,5.0,Action,N,1997,8,26
+628,Great,NFL GameDay 98,/games/nfl-gameday-98/ps-2087,PlayStation,8.8,Sports,Y,1997,8,26
+629,Amazing,GoldenEye 007,/games/goldeneye/n64-1991,Nintendo 64,9.7,Shooter,Y,1997,8,25
+630,Amazing,Ace Combat 2,/games/ace-combat-2/ps-481,PlayStation,9.0,"Flight, Action",Y,1997,8,22
+631,Good,Warcraft II: The Dark Saga,/games/warcraft-ii-the-dark-saga/ps-2132,PlayStation,7.0,Strategy,N,1997,8,20
+632,Mediocre,Machine Hunter,/games/machine-hunter/ps-2078,PlayStation,5.0,Action,N,1997,8,19
+633,Great,Tetrisphere,/games/tetrisphere/n64-420,Nintendo 64,8.0,Puzzle,N,1997,8,13
+634,Okay,Ogre Battle,/games/ogre-battle/ps-2095,PlayStation,6.0,Strategy,N,1997,8,8
+635,Great,Porsche Challenge,/games/porsche-challenge/ps-2103,PlayStation,8.0,Racing,N,1997,8,5
+636,Good,NCAA Football '98,/games/ncaa-football-98/ps-2086,PlayStation,7.0,Sports,N,1997,8,5
+637,Bad,Lethal Enforcers I & II,/games/lethal-enforcers/ps-2074,PlayStation,4.0,Action,N,1997,8,5
+638,Mediocre,VMX Racing,/games/vmx-racing/ps-68,PlayStation,5.0,Racing,N,1997,7,25
+639,Great,Duke Nukem 64,/games/duke-nukem-3d/n64-85,Nintendo 64,8.0,Shooter,N,1997,11,14
+640,Great,NBA Live '98,/games/nba-live-98/ps-2142,PlayStation,8.0,Sports,N,1997,11,13
+641,Good,Jet Moto 2,/games/jet-moto-2/ps-2068,PlayStation,7.0,Racing,N,1997,11,12
+642,Good,Cool Boarders 2,/games/cool-boarders-2/ps-2035,PlayStation,7.2,Sports,N,1997,11,11
+643,Great,Time Crisis,/games/time-crisis/ps-2126,PlayStation,8.0,Action,Y,1997,11,11
+644,Mediocre,Maximum Force,/games/maximum-force/ps-2080,PlayStation,5.0,Shooter,N,1997,9,25
+645,Great,Treasures of the Deep,/games/treasures-of-the-deep/ps-2155,PlayStation,8.0,Adventure,N,1997,9,24
+646,Okay,Discworld II: Mortality Bytes!,/games/discworld-ii-mortality-bytes/ps-2044,PlayStation,6.0,Adventure,N,1997,9,24
+647,Good,Nuclear Strike,/games/nuclear-strike/ps-2140,PlayStation,7.6,Action,N,1997,9,24
+648,Great,NHL FaceOff '98,/games/nhl-faceoff-98/ps-2088,PlayStation,8.0,Sports,N,1997,9,24
+649,Great,NASCAR 98,/games/nascar-98/ps-2085,PlayStation,8.0,Racing,N,1997,9,23
+650,Great,MLB '98,/games/mlb-98/ps-2077,PlayStation,8.0,Sports,N,1997,7,23
+651,Okay,Herc's Adventures,/games/hercs-adventures/ps-1858,PlayStation,6.0,Action,N,1997,7,18
+652,Okay,Namco Museum Vol. 4,/games/namco-museum-vol-4/ps-2089,PlayStation,6.0,"Action, Compilation",N,1997,7,18
+653,Mediocre,Syndicate Wars,/games/syndicate-wars/ps-534,PlayStation,5.0,Shooter,N,1997,7,16
+654,Mediocre,Dark Rift,/games/dark-rift/n64-1954,Nintendo 64,5.4,Fighting,N,1997,7,10
+655,Okay,Hercules,/games/hercules/ps-2045,PlayStation,6.0,Action,N,1997,7,3
+656,Okay,Battlesport,/games/battlesport-805676/ps-320,PlayStation,6.0,Action,N,1997,7,2
+657,Good,Darklight Conflict,/games/darklight-conflict/ps-2041,PlayStation,7.0,Action,N,1997,6,30
+658,Good,Dynasty Warriors,/games/dynasty-warriors-806701/ps-2047,PlayStation,7.8,Fighting,N,1997,6,27
+659,Bad,F1 Pole Position 64,/games/f1-pole-position-64/n64-1977,Nintendo 64,4.1,Racing,N,1997,10,24
+660,Good,Madden Football 64,/games/madden-football-64/n64-2196,Nintendo 64,7.8,Sports,N,1997,10,24
+661,Great,1080° Snowboarding,/games/1080-snowboarding/n64-2225,Nintendo 64,8.6,Sports,Y,1998,4,2
+662,Mediocre,San Francisco Rush: Extreme Racing,/games/san-francisco-rush-extreme-racing/ps-3725,PlayStation,5.0,Racing,N,1998,4,2
+663,Painful,Judge Dredd,/games/judge-dredd-14213549/ps-2326,PlayStation,2.0,Shooter,N,1998,4,1
+664,Mediocre,Tennis Arena,/games/tennis-arena/ps-2204,PlayStation,5.0,Sports,N,1998,3,31
+665,Bad,Rampage: World Tour,/games/rampage-world-tour/n64-2289,Nintendo 64,4.9,Action,N,1998,3,30
+666,Good,Pitfall 3D,/games/pitfall-3d/ps-2101,PlayStation,7.0,Platformer,N,1998,3,27
+667,Great,San Francisco Rush: Extreme Racing,/games/san-francisco-rush-extreme-racing/n64-1941,Nintendo 64,8.9,Racing,N,1997,11,7
+668,Awful,Dragon Ball GT Final Bout,/games/dragon-ball-gt-final-bout/ps-2207,PlayStation,3.0,Fighting,N,1997,11,7
+669,Good,Mass Destruction,/games/mass-destruction/ps-2164,PlayStation,7.0,Action,N,1997,11,5
+670,Great,Need for Speed: V-Rally,/games/need-for-speed-v-rally/ps-2129,PlayStation,8.0,Racing,N,1997,11,5
+671,Okay,Caesars Palace,/games/caesars-palace/ps-2028,PlayStation,6.0,Casino,N,1997,11,5
+672,Great,Crash Bandicoot 2: Cortex Strikes Back,/games/crash-bandicoot-2-cortex-strikes-back/ps-2037,PlayStation,8.5,Platformer,N,1997,11,4
+673,Amazing,Colony Wars,/games/colony-wars/ps-2034,PlayStation,9.3,Action,Y,1997,11,4
+674,Painful,Frogger,/games/frogger-108479/ps-2057,PlayStation,2.0,Platformer,N,1997,11,3
+675,Good,Moto Racer,/games/moto-racer/ps-2141,PlayStation,7.5,Racing,N,1997,11,3
+676,Awful,Jeopardy! [1998],/games/jeopardy-1998/n64-1998,Nintendo 64,3.8,Simulation,N,1998,2,25
+677,Okay,NCAA March Madness '98,/games/ncaa-march-madness-98/ps-2292,PlayStation,6.5,Sports,N,1998,2,25
+678,Bad,Shadow Master,/games/shadow-master/ps-2116,PlayStation,4.0,Action,N,1998,2,25
+679,Good,Oddworld: Abe's Oddysee,/games/oddworld-abes-oddysee/ps-2094,PlayStation,7.5,Adventure,N,1997,9,22
+680,Great,NHL '98,/games/nhl-98/ps-1732,PlayStation,8.0,Sports,N,1997,9,22
+681,Great,Poy Poy,/games/poy-poy/ps-2104,PlayStation,8.0,Action,Y,1997,9,18
+682,Okay,Bottom of the 9th '97,/games/bottom-of-the-9th-97/ps-2025,PlayStation,6.0,Sports,N,1997,9,18
+683,Bad,Magic: The Gathering -- Battlemage,/games/magic-the-gathering-battlemage/ps-321,PlayStation,4.0,Strategy,N,1997,9,17
+684,Good,Steel Reign,/games/steel-reign/ps-2119,PlayStation,7.0,Action,N,1997,9,17
+685,Good,Tecmo Stackers,/games/tecmo-stackers/ps-2123,PlayStation,7.0,Puzzle,N,1997,9,16
+686,Okay,Multi Racing Championship,/games/multi-racing-championship/n64-1916,Nintendo 64,6.4,Racing,N,1997,9,11
+687,Good,RayStorm,/games/g-darius-raystorm-pack/ps-2108,PlayStation,7.5,Action,N,1997,9,11
+688,Awful,Hexen,/games/hexen/n64-1994,Nintendo 64,3.7,Action,N,1997,6,26
+689,Okay,Battle Arena Toshinden 3,/games/battle-arena-toshinden-3/ps-2022,PlayStation,6.3,Fighting,N,1997,6,25
+690,Good,WCW vs. NWO: World Tour,/games/wcw-vs-nwo-world-tour/n64-1985,Nintendo 64,7.5,Wrestling,N,1997,12,9
+691,Painful,Spawn: The Eternal,/games/spawn-the-eternal/ps-324,PlayStation,2.0,Action,N,1997,12,9
+692,Awful,Mortal Kombat Mythologies: Sub-Zero,/games/mortal-kombat-mythologies-sub-zero/n64-1914,Nintendo 64,3.0,Platformer,N,1997,12,8
+693,Okay,Wheel of Fortune [1997],/games/wheel-of-fortune-n64/n64-1981,Nintendo 64,6.4,Puzzle,N,1997,12,5
+694,Awful,Bug Riders,/games/bug-riders/ps-2027,PlayStation,3.0,Racing,N,1997,12,4
+695,Good,Automobili Lamborghini,/games/automobili-lamborghini/n64-2002,Nintendo 64,7.0,Racing,N,1997,12,3
+696,Awful,Excalibur 2555 AD,/games/excalibur-2555-ad/ps-2049,PlayStation,3.0,Action,N,1997,10,22
+697,Great,Armored Core,/games/armored-core/ps-2020,PlayStation,8.0,Action,N,1997,10,22
+698,Awful,ClayFighter 63 1/3,/games/clayfighter-63-13/n64-1940,Nintendo 64,3.7,Fighting,N,1997,10,21
+699,Good,Persona,/games/persona/ps-2193,PlayStation,7.5,RPG,N,1997,10,20
+700,Okay,Golden Nugget,/games/golden-nugget/ps-295,PlayStation,6.0,Strategy,N,1997,10,20
+701,Great,Bushido Blade,/games/bushido-blade/ps-464,PlayStation,8.7,Fighting,Y,1997,10,17
+702,Good,Diablo,/games/diablo/ps-2255,PlayStation,7.5,"Action, RPG",N,1998,3,27
+703,Great,Dead or Alive,/games/dead-or-alive-806438/ps-2306,PlayStation,8.5,Fighting,Y,1998,3,27
+704,Mediocre,Speed Racer,/games/speed-racer/ps-3662,PlayStation,5.0,Racing,N,1998,3,27
+705,Okay,Lode Runner: The Legend Returns,/games/lode-runner-the-legend-returns/ps-2298,PlayStation,6.0,Action,N,1998,3,26
+706,Good,Saga Frontier,/games/saga-frontier/ps-2114,PlayStation,7.0,RPG,N,1998,3,26
+707,Painful,Rascal,/games/rascal/ps-2106,PlayStation,2.0,Platformer,N,1998,3,25
+708,Great,Quake,/games/aftershock-for-quake/n64-397,Nintendo 64,8.0,Action,N,1998,3,24
+709,Good,ReBoot,/games/reboot/ps-2109,PlayStation,7.0,Action,N,1998,3,19
+710,Great,Snowboard Kids,/games/snowboard-kids/n64-2262,Nintendo 64,8.0,"Sports, Racing",N,1998,3,16
+711,Good,Test Drive 4,/games/test-drive-4/ps-2143,PlayStation,7.0,Racing,N,1997,11,3
+712,Mediocre,Fighting Force,/games/fighting-force/ps-2053,PlayStation,5.5,Action,N,1997,11,3
+713,Bad,Jimmy Johnson's VR Football 98,/games/jimmy-johnsons-vr-football-98/ps-2069,PlayStation,4.0,Sports,N,1997,11,3
+714,Okay,Reel Fishing,/games/reel-fishing-950449/ps-2111,PlayStation,6.0,Hunting,N,1997,10,30
+715,Okay,Shipwreckers!,/games/shipwreckers-2097/ps-2097,PlayStation,6.0,Action,N,1997,10,29
+716,Great,Command & Conquer: Red Alert,/games/command-and-conquer-red-alert/ps-2198,PlayStation,8.0,Strategy,N,1997,10,28
+717,Mediocre,Rampage: World Tour,/games/rampage-world-tour/ps-2174,PlayStation,5.0,Action,N,1997,10,28
+718,Great,Street Fighter EX Plus Alpha,/games/street-fighter-ex-plus/ps-2120,PlayStation,8.3,Fighting,N,1997,10,26
+719,Good,Nightmare Creatures,/games/nightmare-creatures/ps-2091,PlayStation,7.8,Action,N,1997,10,26
+720,Bad,NBA In the Zone '98,/games/nba-in-the-zone-98/n64-2265,Nintendo 64,4.7,Sports,N,1998,2,11
+721,Bad,Nagano Winter Olympics '98,/games/nagano-winter-olympics-98/n64-2259,Nintendo 64,4.2,Sports,N,1998,2,4
+722,Okay,Skullmonkeys,/games/skullmonkeys/ps-2175,PlayStation,6.0,Platformer,N,1998,2,3
+723,Awful,Nagano Winter Olympics '98,/games/nagano-winter-olympics-98/ps-2293,PlayStation,3.0,Sports,N,1998,1,30
+724,Great,NBA in the Zone '98,/games/nba-in-the-zone-98/ps-2214,PlayStation,8.0,Sports,N,1998,1,29
+725,Great,Fighters Destiny,/games/fighters-destiny/n64-2168,Nintendo 64,8.0,Fighting,N,1998,1,27
+726,Good,NHL Breakaway '98,/games/nhl-breakaway-98/ps-1863,PlayStation,7.0,Sports,N,1997,9,10
+727,Good,Felony 11-79,/games/felony-11-79/ps-2052,PlayStation,7.0,"Racing, Action",N,1997,9,10
+728,Good,Arcade's Greatest Hits: The Atari Collection 1,/games/arcades-greatest-hits-atari-collection-1/ps-9792,PlayStation,7.0,Compilation,N,1997,9,4
+729,Okay,Tiger Shark,/games/tiger-shark/ps-522,PlayStation,6.5,Action,N,1997,9,4
+730,Amazing,Final Fantasy VII,/games/final-fantasy-vii/ps-494,PlayStation,9.5,RPG,Y,1997,9,3
+731,Amazing,International Superstar Soccer 64,/games/international-superstar-soccer-64/n64-1996,Nintendo 64,9.0,Sports,N,1997,9,3
+732,Bad,K-1 The Arena Fighters,/games/k-1-the-arena-fighters/ps-2070,PlayStation,4.5,Fighting,N,1997,9,3
+733,Mediocre,The Incredible Hulk: The Pantheon Saga,/games/the-incredible-hulk-the-pantheon-saga/ps-570,PlayStation,5.0,Action,N,1997,9,2
+734,Good,Duke Nukem: Total Meltdown,/games/duke-nukem-total-meltdown/ps-2194,PlayStation,7.0,Shooter,N,1997,12,2
+735,Good,Bomberman 64,/games/bomberman-64/n64-1932,Nintendo 64,7.6,Action,N,1997,12,2
+736,Bad,Vs.,/games/vs/ps-2130,PlayStation,4.0,Fighting,N,1997,12,2
+737,Mediocre,AeroFighters Assault,/games/aerofighters-assault/n64-1918,Nintendo 64,5.0,Shooter,N,1997,12,1
+738,Great,Ghost in the Shell,/games/ghost-in-the-shell/ps-619,PlayStation,8.0,Action,N,1997,12,1
+739,Good,Arcade's Greatest Hits: The Midway Collection 2,/games/arcades-greatest-hits-the-midway-collection-2/ps-2208,PlayStation,7.0,Action,N,1997,11,26
+740,Okay,Namco Museum Vol. 5,/games/namco-museum-vol-5/ps-2090,PlayStation,6.0,"Action, Compilation",N,1997,11,26
+741,Great,Tomb Raider II Starring Lara Croft,/games/tomb-raider-2-starring-lara-croft/ps-2128,PlayStation,8.0,Adventure,N,1997,11,24
+742,Great,Diddy Kong Racing,/games/diddy-kong-racing/n64-2146,Nintendo 64,8.4,"Racing, Action",N,1997,11,24
+743,Great,G-Police,/games/g-police/ps-2160,PlayStation,8.0,Action,N,1997,10,16
+744,Mediocre,Clock Tower,/games/clock-tower-14279453/ps-2032,PlayStation,5.5,Adventure,N,1997,10,13
+745,Good,CART World Series,/games/cart-world-series/ps-2163,PlayStation,7.0,Racing,N,1997,10,9
+746,Bad,Bravo Air Race,/games/bravo-air-race/ps-2026,PlayStation,4.0,Racing,N,1997,10,9
+747,Okay,WCW vs. The World,/games/wcw-vs-the-world/ps-2131,PlayStation,6.0,Wrestling,N,1997,10,7
+748,Good,Mace: The Dark Age,/games/mace-the-dark-age/n64-1906,Nintendo 64,7.1,Fighting,N,1997,10,3
+749,Great,Top Gear Rally,/games/boss-rally/n64-417,Nintendo 64,8.4,Racing,N,1997,10,3
+750,Great,NBA ShootOut '98,/games/nba-shootout-98/ps-2267,PlayStation,8.8,Sports,N,1998,3,11
+751,Good,Yoshi's Story,/games/yoshis-story/n64-563,Nintendo 64,7.0,Platformer,N,1998,3,11
+752,Great,Klonoa: Door to Phantomile,/games/klonoa/ps-2227,PlayStation,8.0,Platformer,Y,1998,3,11
+753,Good,Ray Tracers,/games/ray-tracers/ps-2107,PlayStation,7.0,Action,N,1998,3,10
+754,Good,Triple Play '99,/games/triple-play-99/ps-2263,PlayStation,7.0,Sports,N,1998,3,10
+755,Great,Bloody Roar,/games/bloody-roar/ps-2222,PlayStation,8.0,Fighting,N,1998,3,5
+756,Awful,X-Men: Children of the Atom,/games/x-men-children-of-the-atom/ps-2331,PlayStation,3.5,Fighting,N,1998,3,3
+757,Awful,SimCity 2000,/games/simcity-2000/n64-1950,Nintendo 64,3.5,Strategy,N,1998,2,27
+758,Good,Extreme-G,/games/extreme-g/n64-1973,Nintendo 64,7.9,Racing,N,1997,10,24
+759,Good,NFL Quarterback Club '98,/games/nfl-quarterback-club-98/n64-1921,Nintendo 64,7.8,Sports,N,1997,10,24
+760,Great,Final Fantasy Tactics,/games/final-fantasy-tactics/ps-26,PlayStation,8.5,"Strategy, RPG",Y,1998,1,27
+761,Awful,Monopoly [1998],/games/monopoly-1998/ps-2280,PlayStation,3.0,Board,N,1998,1,23
+762,Okay,Auto Destruct,/games/auto-destruct/ps-2177,PlayStation,6.0,Action,N,1998,1,21
+763,Amazing,Resident Evil 2 [1998],/games/resident-evil-2/ps-504,PlayStation,9.3,"Action, Adventure",Y,1998,1,21
+764,Good,Riven: The Sequel to Myst,/games/riven/ps-2218,PlayStation,7.0,Adventure,N,1998,1,19
+765,Good,WCW Nitro,/games/wcw-nitro/ps-2187,PlayStation,7.0,Wrestling,N,1998,1,16
+766,Painful,Beast Wars: Transformers,/games/beast-wars-transformers-805694/ps-2270,PlayStation,2.3,Action,N,1998,1,16
+767,Mediocre,Red Asphalt,/games/red-asphalt/ps-4,PlayStation,5.0,Action,N,1998,1,15
+768,Great,Micro Machines V3,/games/micro-machines-64-turbo/ps-2220,PlayStation,8.7,Racing,N,1998,1,9
+769,Okay,BallBlazer Champions,/games/ballblazer-champions/ps-2021,PlayStation,6.0,"Sports, Action",N,1997,9,2
+770,Unbearable,Fantastic Four,/games/fantastic-four/ps-2051,PlayStation,1.0,Action,N,1997,8,29
+771,Great,FIFA Road to World Cup 98,/games/fifa-road-to-world-cup-98/ps-2050,PlayStation,8.5,Sports,N,1997,11,24
+772,Great,NCAA GameBreaker '98,/games/ncaa-gamebreaker-98/ps-2213,PlayStation,8.0,Sports,N,1997,11,21
+773,Great,MDK,/games/mdk/ps-2076,PlayStation,8.0,Action,N,1997,11,21
+774,Bad,NBA Fastbreak '98,/games/nba-fastbreak-98-142150/ps-13735,PlayStation,4.0,Sports,N,1997,11,20
+775,Bad,Star Wars: Masters of Teras Kasi,/games/star-wars-masters-of-teras-kasi/ps-2118,PlayStation,4.0,Fighting,N,1997,11,19
+776,Awful,Courier Crisis,/games/courier-crisis/ps-2036,PlayStation,3.0,Action,N,1997,11,19
+777,Amazing,Monster Rancher,/games/monster-rancher/ps-2180,PlayStation,9.0,Simulation,N,1997,11,19
+778,Amazing,Castlevania: Symphony of the Night,/games/castlevania-symphony-of-the-night/ps-336,PlayStation,9.0,"Action, Adventure",Y,1997,10,2
+779,Okay,Mischief Makers,/games/mischief-makers/n64-1917,Nintendo 64,6.2,Platformer,N,1997,10,1
+780,Great,Croc: Legend of the Gobbos,/games/croc-legend-of-the-gobbos/ps-2039,PlayStation,8.0,Platformer,N,1997,10,1
+781,Amazing,Formula 1: Championship Edition,/games/formula-1-championship-edition/ps-2056,PlayStation,9.0,Racing,N,1997,10,1
+782,Awful,Mortal Kombat Mythologies: Sub-Zero,/games/mortal-kombat-mythologies-sub-zero/ps-2084,PlayStation,3.5,Platformer,N,1997,10,1
+783,Good,Mega Man X4,/games/mega-man-x4/ps-2083,PlayStation,7.0,Action,N,1997,9,30
+784,Good,PGA Tour '98,/games/pga-tour-98/ps-2162,PlayStation,7.0,Sports,N,1997,9,30
+785,Great,Resident Evil: Director's Cut,/games/resident-evil-directors-cut/ps-2112,PlayStation,8.9,"Action, Adventure",N,1997,9,30
+786,Good,Marvel Super Heroes,/games/marvel-super-heroes/ps-160,PlayStation,7.0,Fighting,N,1997,9,30
+787,Good,NHL Breakaway '98,/games/nhl-breakaway-98/n64-1919,Nintendo 64,7.4,Sports,N,1998,2,26
+788,Mediocre,Wayne Gretzky's 3D Hockey '98,/games/wayne-gretzkys-3d-hockey-98/n64-2169,Nintendo 64,5.8,Sports,N,1998,2,25
+789,Great,Alundra,/games/alundra/ps-2018,PlayStation,8.5,"Action, RPG",Y,1998,1,8
+790,Okay,Robotron 64,/games/robotron-64/n64-1937,Nintendo 64,6.9,Action,N,1998,1,5
+791,Good,Puyo Puyo Sun64,/games/puyo-puyo-sun/n64-2245,Nintendo 64,7.2,Puzzle,N,1997,12,30
+792,Good,FIFA Road to World Cup 98,/games/fifa-road-to-world-cup-98/n64-2246,Nintendo 64,7.7,Sports,N,1997,12,24
+793,Good,Street Fighter Collection,/games/street-fighter-collection/ps-2121,PlayStation,7.0,"Fighting, Compilation",N,1997,12,18
+794,Okay,Chameleon Twist,/games/chameleon-twist/n64-1938,Nintendo 64,6.5,Platformer,N,1997,12,15
+795,Mediocre,One,/games/one-66131/ps-2096,PlayStation,5.0,Action,N,1997,12,11
+796,Amazing,Parappa The Rapper,/games/parappa-the-rapper/ps-490,PlayStation,9.0,Music,Y,1997,11,18
+797,Mediocre,Critical Depth,/games/critical-depth/ps-2038,PlayStation,5.0,Action,N,1997,11,18
+798,Great,Intelligent Qube,/games/intelligent-qube/ps-2199,PlayStation,8.0,Puzzle,N,1997,11,17
+799,Okay,Car and Driver Presents Grand Tour Racing 98,/games/car-and-driver-presents-grand-tour-racing-98/ps-2063,PlayStation,6.0,Racing,N,1997,9,29
+800,Mediocre,Jersey Devil,/games/jersey-devil/ps-2067,PlayStation,5.0,Platformer,N,1998,6,17
+801,Great,Wetrix,/games/wetrix/n64-2139,Nintendo 64,8.4,Puzzle,N,1998,6,15
+802,Great,Soviet Strike,/games/soviet-strike/ps-525,PlayStation,8.0,Action,N,1998,6,12
+803,Okay,X-Men vs. Street Fighter,/games/x-men-vs-street-fighter/ps-39,PlayStation,6.0,Fighting,N,1998,6,11
+804,Mediocre,Quest 64,/games/quest-64-164875/n64-1995,Nintendo 64,5.9,RPG,N,1998,6,11
+805,Mediocre,Road Rash 3D,/games/road-rash-3d/ps-2284,PlayStation,5.0,Racing,N,1998,6,11
+806,Great,Vigilante 8,/games/vigilante-8/ps-2210,PlayStation,8.0,Action,N,1998,6,4
+807,Great,Forsaken 64,/games/forsaken/n64-1988,Nintendo 64,8.0,Action,N,1998,6,3
+808,Good,Major League Baseball Featuring Ken Griffey Jr.,/games/major-league-baseball-featuring-ken-griffey-jr/n64-421,Nintendo 64,7.7,Sports,N,1998,6,2
+809,Great,All-Star Baseball '99,/games/all-star-baseball-99/n64-2275,Nintendo 64,8.2,Sports,N,1998,5,26
+810,Great,Bust-A-Move 2 Arcade Edition,/games/bust-a-move-2-arcade-edition/n64-3606,Nintendo 64,8.0,Puzzle,N,1998,5,22
+811,Mediocre,Aero Gauge,/games/aero-gauge/n64-2006,Nintendo 64,5.2,Racing,N,1998,5,21
+812,Okay,Bio F.R.E.A.K.S.,/games/bio-freaks/ps-2318,PlayStation,6.5,Fighting,N,1998,5,21
+813,Okay,Bio F.R.E.A.K.S.,/games/bio-freaks/n64-1924,Nintendo 64,6.4,Action,N,1998,5,20
+814,Great,World Cup 98,/games/world-cup-98/n64-3533,Nintendo 64,8.8,Sports,N,1998,5,20
+815,Good,Breath of Fire III,/games/breath-of-fire-iii/ps-448,PlayStation,7.5,RPG,N,1998,5,15
+816,Great,Hot Shots Golf,/games/hot-shots-golf/ps-2273,PlayStation,8.0,"Sports, Action",Y,1998,5,7
+817,Good,Kobe Bryant in NBA Courtside,/games/kobe-bryant-in-nba-courtside/n64-2266,Nintendo 64,7.8,Sports,N,1998,4,27
+818,Good,Mystical Ninja Starring Goemon,/games/mystical-ninja-starring-goemon-949069/n64-608,Nintendo 64,7.6,"Action, Adventure",N,1998,4,16
+819,Good,Theme Hospital,/games/theme-hospital/ps-3747,PlayStation,7.0,Strategy,N,1998,4,15
+820,Good,MLB '99,/games/mlb-99/ps-3748,PlayStation,7.0,Sports,N,1998,4,14
+821,Mediocre,Blasto,/games/blasto/ps-2023,PlayStation,5.0,Action,N,1998,4,14
+822,Great,Newman Haas Racing,/games/newman-haas-racing/ps-2216,PlayStation,8.0,Racing,N,1998,4,13
+823,Great,Point Blank,/games/point-blank/ps-2102,PlayStation,8.0,Action,N,1998,4,13
+824,Mediocre,Deathtrap Dungeon,/games/deathtrap-dungeon/ps-2042,PlayStation,5.0,Adventure,N,1998,4,3
+825,Good,SWAT 2,/games/swat-2/pc-4024,PC,7.0,"Action, Simulation",N,1998,8,11
+826,Mediocre,Batman & Robin,/games/batman-robin/ps-2274,PlayStation,5.0,Action,N,1998,8,11
+827,Mediocre,SEGA Touring Car Championship,/games/sega-touring-car-championship/pc-3661,PC,5.0,Racing,N,1998,7,31
+828,Okay,Fox Sports Golf '99,/games/fox-sports-golf-99/pc-3881,PC,6.0,Sports,N,1998,7,31
+829,Bad,Army Men,/games/army-men/pc-3782,PC,4.0,Action,N,1998,7,31
+830,Okay,Revenge of Arcade,/games/revenge-of-arcade/pc-3980,PC,6.0,Action,N,1998,7,31
+831,Bad,Dominion:  Storm Over Gift 3,/games/dominion-storm-over-gift-3/pc-3742,PC,4.0,Strategy,N,1998,7,31
+832,Great,Addiction Pinball,/games/addiction-pinball/pc-3831,PC,8.0,Pinball,N,1998,7,30
+833,Great,F-1 World Grand Prix,/games/f-1-world-grand-prix/n64-3535,Nintendo 64,8.3,Racing,N,1998,7,27
+834,Okay,Mission: Impossible,/games/mission-impossible-808345/n64-29,Nintendo 64,6.6,Action,N,1998,7,20
+835,Great,World Cup 98,/games/world-cup-98/ps-3532,PlayStation,8.0,Sports,N,1998,7,15
+836,Mediocre,NFL Xtreme,/games/nfl-xtreme/ps-3528,PlayStation,5.0,"Sports, Action",N,1998,7,15
+837,Okay,Granstream Saga,/games/granstream-saga/ps-2305,PlayStation,6.0,RPG,N,1998,7,14
+838,Great,Forsaken,/games/forsaken/ps-2290,PlayStation,8.0,Action,N,1998,7,13
+839,Okay,Grand Theft Auto,/games/grand-theft-auto-1/ps-151,PlayStation,6.0,Action,N,1998,7,10
+840,Mediocre,Crime Killer,/games/crime-killer/ps-2173,PlayStation,5.0,Action,N,1998,7,2
+841,Painful,Off-Road Challenge,/games/off-road-challenge/n64-2201,Nintendo 64,2.5,Racing,N,1998,7,2
+842,Amazing,Banjo-Kazooie,/games/banjo-kazooie/n64-1922,Nintendo 64,9.6,Platformer,Y,1998,6,30
+843,Great,Mortal Kombat 4,/games/mortal-kombat-4/n64-1912,Nintendo 64,8.8,Fighting,N,1998,6,24
+844,Great,Mortal Kombat 4,/games/mortal-kombat-4/ps-3723,PlayStation,8.0,Fighting,N,1998,6,24
+845,Mediocre,Jeremy McGrath Supercross '98,/games/jeremy-mcgrath-supercross-98/ps-3915,PlayStation,5.0,Racing,N,1998,6,22
+846,Great,N2O: Nitrous Oxide,/games/n2o-nitrous-oxide/ps-2328,PlayStation,8.0,Shooter,N,1998,6,18
+847,Mediocre,Chopper Attack,/games/chopper-attack-140530/n64-3750,Nintendo 64,5.6,Action,N,1998,6,17
+848,Unbearable,C: The Contra Adventure,/games/c-the-contra-adventure/ps-3773,PlayStation,1.0,Action,N,1998,9,16
+849,Mediocre,Dune 2000,/games/dune-2000/pc-2330,PC,5.3,Strategy,N,1998,9,16
+850,Great,Future Cop: L.A.P.D.,/games/future-cop-lapd/ps-3923,PlayStation,8.3,Action,N,1998,9,16
+851,Awful,M.A.X. 2,/games/max-2/pc-3829,PC,3.7,Strategy,N,1998,9,15
+852,Great,Mega Man Legends,/games/mega-man-legends/ps-2082,PlayStation,8.4,"Action, Adventure",N,1998,9,15
+853,Good,Parasite Eve,/games/parasite-eve/ps-2228,PlayStation,7.4,RPG,N,1998,9,14
+854,Good,MechCommander,/games/mechcommander/pc-3835,PC,7.8,Strategy,N,1998,8,18
+855,Painful,Pro Bass Fishing,/games/pro-bass-fishing/pc-4031,PC,2.9,Hunting,N,1998,8,18
+856,Good,WarGames,/games/wargames/pc-3963,PC,7.0,Strategy,N,1998,8,18
+857,Mediocre,Triple Play '99,/games/triple-play-99/pc-3137,PC,5.0,Sports,N,1998,8,13
+858,Good,High Heat Baseball 1999,/games/high-heat-baseball-1999/pc-3858,PC,7.0,Sports,N,1998,8,13
+859,Mediocre,Flesh Feast,/games/flesh-feast/pc-3636,PC,5.0,Action,N,1998,8,13
+860,Amazing,Grim Fandango,/games/grim-fandango/pc-3100,PC,9.4,Adventure,Y,1998,11,3
+861,Good,Rally Cross 2,/games/rally-cross-2/ps-10396,PlayStation,7.5,Racing,N,1998,11,3
+862,Good,Return Fire II,/games/return-fire-ii/pc-9953,PC,7.8,Strategy,N,1998,11,2
+863,Okay,Hedz,/games/hedz/pc-10460,PC,6.5,Action,N,1998,11,2
+864,Awful,Mike Piazza's StrikeZone,/games/mike-piazzas-strikezone/n64-2276,Nintendo 64,3.0,Sports,N,1998,6,17
+865,Good,Virtual Chess 64,/games/virtual-chess-64/n64-2317,Nintendo 64,7.7,Board,N,1998,6,17
+866,Amazing,Metal Gear Solid,/games/metal-gear-solid/ps-569,PlayStation,9.8,"Action, Adventure",Y,1998,10,21
+867,Good,NASCAR 99,/games/nascar-99/n64-3968,Nintendo 64,7.0,Racing,N,1998,10,21
+868,Great,Kagero: Deception II,/games/kagero-deception-ii/ps-3716,PlayStation,8.5,Strategy,N,1998,10,20
+869,Good,Red Jack: Revenge of the Brethren,/games/red-jack-revenge-of-the-brethren/pc-10369,PC,7.0,Adventure,N,1998,10,20
+870,Amazing,Xenogears,/games/xenogears/ps-2230,PlayStation,9.5,RPG,Y,1998,10,20
+871,Awful,Deadly Arts,/games/deadly-arts/n64-2172,Nintendo 64,3.2,Fighting,N,1998,10,19
+872,Awful,GT 64 Championship Edition,/games/gt-64-championship-edition/n64-3749,Nintendo 64,3.9,Racing,N,1998,9,11
+873,Amazing,NFL Blitz [1998],/games/nfl-blitz-1997/n64-2200,Nintendo 64,9.1,"Sports, Action",N,1998,9,11
+874,Amazing,NFL Blitz [1998],/games/nfl-blitz-1997/ps-2285,PlayStation,9.4,"Sports, Action",N,1998,9,11
+875,Good,NCAA Football '99,/games/ncaa-football-99/pc-10182,PC,7.0,Sports,N,1998,9,11
+876,Mediocre,Gex 64: Enter the Gecko,/games/gex-64-enter-the-gecko/n64-2291,Nintendo 64,5.7,Platformer,N,1998,9,10
+877,Good,Incoming,/games/incoming/pc-2282,PC,7.0,Action,N,1998,8,13
+878,Bad,Deathtrap Dungeon,/games/deathtrap-dungeon/pc-4026,PC,4.7,Action,N,1998,8,13
+879,Okay,HardBall 6,/games/hardball-99/pc-3752,PC,6.0,Sports,N,1998,8,13
+880,Great,Forsaken,/games/forsaken/pc-3104,PC,8.5,Action,N,1998,8,13
+881,Okay,Urban Assault,/games/urban-assault/pc-3139,PC,6.8,Strategy,N,1998,8,13
+882,Good,Warhammer: Dark Omen,/games/warhammer-dark-omen/pc-3246,PC,7.0,Strategy,N,1998,8,13
+883,Good,Panzer Commander,/games/panzer-commander/pc-3691,PC,7.0,Simulation,N,1998,8,13
+884,Bad,Bio F.R.E.A.K.S.,/games/bio-freaks/pc-4032,PC,4.0,Action,N,1998,8,13
+885,Bad,Icarus: Sanctuary of the Gods,/games/icarus-sanctuary-of-the-gods/pc-4028,PC,4.0,RPG,N,1998,8,12
+886,Bad,Rosco McQueen: Firefighter Extreme,/games/rosco-mcqueen-firefighter-extreme/ps-10337,PlayStation,4.5,Action,N,1998,11,2
+887,Okay,Cool Boarders 3,/games/cool-boarders-3/ps-10196,PlayStation,6.0,Sports,N,1998,10,30
+888,Bad,Trespasser,/games/trespasser/pc-4037,PC,4.7,Action,N,1998,10,30
+889,Great,NCAA GameBreaker '99,/games/ncaa-gamebreaker-99/ps-10399,PlayStation,8.5,Sports,N,1998,10,29
+890,Disaster,Extreme PaintBrawl,/games/extreme-paintbrawl/pc-10455,PC,0.7,Action,N,1998,10,29
+891,Good,Bushido Blade 2,/games/bushido-blade-2/ps-2333,PlayStation,7.0,Fighting,N,1998,10,28
+892,Great,Front Office Football,/games/front-office-football/pc-10432,PC,8.0,"Sports, Simulation",N,1998,10,28
+893,Amazing,NHL '99,/games/ea-sports-mania-pack/pc-3987,PC,9.0,Sports,Y,1998,10,27
+894,Amazing,F-Zero X,/games/f-zero-x/n64-418,Nintendo 64,9.1,Racing,Y,1998,10,27
+895,Good,Armored Core: Project Phantasma,/games/armored-core-project-phantasma/ps-9658,PlayStation,7.8,Action,N,1998,10,19
+896,Good,Quake II Mission Pack: Ground Zero,/games/quake-ii-mission-pack-ground-zero/pc-3935,PC,7.5,Shooter,N,1998,10,19
+897,Good,Star Trek: The Next Generation: Klingon Honor Guard,/games/star-trek-the-next-generation-klingon-honor-guard/pc-3112,PC,7.0,Shooter,N,1998,10,16
+898,Mediocre,Team Losi RC Racer,/games/team-losi-rc-racer/ps-2327,PlayStation,5.0,Racing,N,1998,10,16
+899,Great,Duke Nukem: Time to Kill,/games/duke-nukem-time-to-kill/ps-2314,PlayStation,8.0,Action,N,1998,10,15
+900,Mediocre,Knights and Merchants: The Shattered Kingdom,/games/knights-and-merchants-the-shattered-kingdom/pc-3861,PC,5.9,Strategy,N,1998,10,14
+901,Okay,Iggy's Reckin' Balls,/games/iggys-reckin-balls/n64-2272,Nintendo 64,6.9,Platformer,N,1998,9,10
+902,Great,Independence War,/games/independence-war/pc-3110,PC,8.0,Simulation,N,1998,9,10
+903,Amazing,Spyro the Dragon,/games/spyro-the-dragon/ps-3920,PlayStation,9.0,Platformer,N,1998,9,9
+904,Amazing,Tom Clancy's Rainbow Six,/games/tom-clancys-rainbow-six/pc-3836,PC,9.4,Shooter,Y,1998,9,8
+905,Good,Command & Conquer: Red Alert Retaliation,/games/command-and-conquer-red-alert-retaliation/ps-3785,PlayStation,7.0,Strategy,N,1998,9,8
+906,Good,Heart of Darkness,/games/heart-of-darkness/ps-4033,PlayStation,7.8,Platformer,N,1998,9,8
+907,Okay,NFL GameDay 99,/games/nfl-gameday-99/pc-10158,PC,6.0,Sports,N,1998,9,4
+908,Mediocre,Pro-Pinball: Timeshock!,/games/pro-pinball-timeshock/ps-10153,PlayStation,5.0,Pinball,N,1998,9,3
+909,Great,Motocross Madness [1998],/games/motocross-madness/pc-3569,PC,8.0,Racing,N,1998,9,2
+910,Good,Sanitarium,/games/sanitarium/pc-3424,PC,7.0,Adventure,N,1998,8,12
+911,Good,Peter Jacobsen's Golden Tee Golf,/games/peter-jacobsens-golden-tee-golf/pc-3106,PC,7.2,Sports,N,1998,8,12
+912,Good,Ultim@te Race Pro,/games/ultimte-race-pro/pc-3630,PC,7.0,Racing,N,1998,8,12
+913,Awful,Nam,/games/nam/pc-4020,PC,3.0,Action,N,1998,8,12
+914,Amazing,Unreal,/games/unreal/pc-2189,PC,9.0,Shooter,Y,1998,8,12
+915,Great,Final Fantasy VII,/games/final-fantasy-vii/pc-2301,PC,8.2,RPG,N,1998,8,12
+916,Okay,"Game, Net & Match",/games/game-net-match/pc-3955,PC,6.0,Sports,N,1998,8,12
+917,Amazing,"The Operational Art of War, Vol. 1",/games/the-operational-art-of-war-vol-1/pc-4021,PC,9.0,Strategy,Y,1998,8,12
+918,Amazing,Might and Magic VI: The Mandate of Heaven,/games/might-and-magic-vi-the-mandate-of-heaven/pc-3546,PC,9.0,RPG,Y,1998,8,12
+919,Mediocre,Test Drive Off-Road 2,/games/test-drive-off-road-2/ps-10309,PlayStation,5.8,Racing,N,1998,10,27
+920,Great,Railroad Tycoon II,/games/railroad-tycoon-2-platinum-edition/pc-10174,PC,8.9,Strategy,Y,1998,10,27
+921,Great,WCW/NWO Revenge,/games/wcwnwo-revenge/n64-3875,Nintendo 64,8.0,Wrestling,N,1998,10,26
+922,Great,Rival Schools: United by Fate,/games/rival-schools-united-by-fate/ps-3739,PlayStation,8.0,Fighting,N,1998,10,26
+923,Amazing,Space Station Silicon Valley,/games/space-station-silicon-valley/n64-1946,Nintendo 64,9.5,Platformer,Y,1998,10,23
+924,Mediocre,Cardinal Syn,/games/cardinal-syn/ps-3965,PlayStation,5.5,Fighting,N,1998,10,23
+925,Great,NHL '99,/games/ea-sports-mania-pack/n64-3970,Nintendo 64,8.8,Sports,N,1998,10,14
+926,Good,Need for Speed III: Hot Pursuit,/games/need-for-speed-iii-hot-pursuit/pc-3900,PC,7.3,Racing,N,1998,10,13
+927,Okay,Brunswick Circuit Pro Bowling,/games/brunswick-circuit-pro-bowling/pc-10176,PC,6.8,Sports,N,1998,10,13
+928,Good,Redline Racer,/games/redline-racer/pc-3125,PC,7.0,Racing,N,1998,10,12
+929,Okay,Ninja: Shadow of Darkness,/games/ninja-shadow-of-darkness/ps-2092,PlayStation,6.5,Action,N,1998,10,12
+930,Great,Caesar III,/games/caesar-iii/pc-10142,PC,8.7,Strategy,Y,1998,10,8
+931,Okay,Cruis'n World,/games/cruisn-world/n64-73,Nintendo 64,6.5,Racing,N,1998,10,8
+932,Okay,Running Wild,/games/running-wild/ps-2113,PlayStation,6.1,Racing,N,1998,10,8
+933,Good,Test Drive 5,/games/test-drive-5/ps-3928,PlayStation,7.5,Racing,N,1998,10,8
+934,Mediocre,Bottom of the 9th '99,/games/bottom-of-the-9th-99/ps-10146,PlayStation,5.0,Sports,N,1998,9,2
+935,Great,Warlords III: Darklords Rising,/games/warlords-iii-darklords-rising/pc-3942,PC,8.0,Strategy,N,1998,9,2
+936,Great,Commandos: Behind Enemy Lines,/games/commandos-behind-enemy-lines/pc-3853,PC,8.2,Strategy,N,1998,9,1
+937,Okay,Leisure Suit Larry's Casino,/games/leisure-suit-larrys-casino/pc-3884,PC,6.2,Casino,N,1998,9,1
+938,Good,Castrol Honda Superbike World Champions,/games/castrol-honda-superbike-world-champions-142679/pc-3595,PC,7.5,Racing,N,1998,9,1
+939,Great,WWF Warzone,/games/wwf-warzone/n64-1980,Nintendo 64,8.5,Wrestling,N,1998,8,12
+940,Mediocre,Pro Pilot 99,/games/pro-pilot-99/pc-4019,PC,5.8,Simulation,N,1998,10,23
+941,Great,Body Harvest,/games/body-harvest/n64-405,Nintendo 64,8.4,Action,N,1998,10,22
+942,Great,Madden NFL '99,/games/madden-football/pc-9982,PC,8.5,Sports,N,1998,10,22
+943,Good,MediEvil,/games/medievil/ps-3950,PlayStation,7.8,Action,N,1998,10,22
+944,Good,Lemmings and Oh No! More Lemmings,/games/lemmings/ps-10302,PlayStation,7.0,Puzzle,N,1998,10,22
+945,Great,Axis & Allies [1998],/games/axis-allies-1998/pc-9954,PC,8.2,Strategy,N,1998,10,21
+946,Good,The Game of Life [1998],/games/the-game-of-life-1998/pc-10306,PC,7.2,Puzzle,N,1998,10,7
+947,Good,Rogue Trip: Vacation 2012,/games/rogue-trip-vacation-2012/ps-3768,PlayStation,7.9,Action,N,1998,10,7
+948,Okay,S.C.A.R.S.,/games/scars-809360/ps-9925,PlayStation,6.5,Racing,N,1998,10,7
+949,Good,Bomberman World,/games/bomberman-world/ps-2297,PlayStation,7.8,Action,N,1998,10,7
+950,Great,NFL Blitz [1998],/games/nfl-blitz-1997/pc-2286,PC,8.5,"Sports, Action",N,1998,10,6
+951,Okay,Dragon Seeds,/games/dragon-seeds/ps-10303,PlayStation,6.9,RPG,N,1998,10,6
+952,Good,Jane's IAF -- Israeli Air Force,/games/janes-2-pack-usnf-97-iaf-israeli-air-force/pc-10178,PC,7.0,"Flight, Simulation",N,1998,10,5
+953,Amazing,Brunswick Circuit Pro Bowling,/games/brunswick-circuit-pro-bowling/ps-3791,PlayStation,9.0,Sports,N,1998,10,2
+954,Okay,iF/A-18 Carrier Strike Fighter,/games/ifa-18-carrier-strike-fighter/pc-9946,PC,6.8,Simulation,N,1998,10,1
+955,Mediocre,The Fifth Element,/games/nyr-new-york-race/ps-3936,PlayStation,5.0,Action,N,1998,10,1
+956,Okay,Get Medieval,/games/get-medieval/pc-3981,PC,6.1,Action,N,1998,8,31
+957,Bad,Sensible Soccer '98,/games/sensible-soccer-98/pc-3959,PC,4.3,Sports,N,1998,8,31
+958,Great,Wild 9,/games/wild-9/ps-1869,PlayStation,8.5,Action,N,1998,10,1
+959,Great,TOCA Championship Racing,/games/toca-championship-racing/pc-3381,PC,8.2,Racing,N,1998,9,30
+960,Great,NHL FaceOff '99,/games/nhl-faceoff-99/ps-10240,PlayStation,8.8,Sports,N,1998,9,30
+961,Good,NASCAR 99,/games/nascar-99/ps-3841,PlayStation,7.1,Racing,N,1998,9,30
+962,Okay,Pool Hustler,/games/pool-hustler/ps-10238,PlayStation,6.7,Sports,N,1998,9,30
+963,Good,Spearhead,/games/spearhead/pc-3132,PC,7.0,Simulation,N,1998,9,29
+964,Painful,Activision Classics,/games/activision-classics/ps-4023,PlayStation,2.0,Action,N,1998,9,29
+965,Mediocre,Heart of Darkness,/games/heart-of-darkness/pc-2254,PC,5.8,Platformer,N,1998,9,29
+966,Great,NHL '99,/games/ea-sports-mania-pack/ps-10157,PlayStation,8.9,Sports,N,1998,9,29
+967,Bad,Starship Titanic,/games/starship-titanic/pc-3133,PC,4.9,Adventure,N,1998,8,31
+968,Good,Tiger Woods '99,/games/pga-tour-golf-the-monterey-courses/pc-4006,PC,7.8,Sports,N,1998,8,31
+969,Good,X-COM: Interceptor,/games/x-com-interceptor/pc-3144,PC,7.0,Action,N,1998,8,31
+970,Bad,Super B-Daman Battle Phoenix 64,/games/super-b-daman-battle-phoenix-64/n64-4000,Nintendo 64,4.0,Action,N,1998,8,30
+971,Mediocre,Pokemon Stadium [Japanese Version],/games/pokemon-stadium-jp-version/n64-3997,Nintendo 64,5.0,Battle,N,1998,8,30
+972,Mediocre,Waialae Country Club: True Golf Classics,/games/waialae-country-club-true-golf-classics/n64-3825,Nintendo 64,5.8,Sports,N,1998,8,30
+973,Good,NCAA Football '99,/games/ncaa-football-99-877941/ps-3843,PlayStation,7.8,Sports,N,1998,8,28
+974,Amazing,NFL GameDay 99,/games/nfl-gameday-99/ps-4016,PlayStation,9.3,Sports,N,1998,8,28
+975,Great,WWF Warzone,/games/wwf-warzone/ps-3730,PlayStation,8.0,Wrestling,N,1998,8,28
+976,Amazing,Devil Dice,/games/devil-dice/ps-3896,PlayStation,9.0,Puzzle,Y,1998,9,29
+977,Great,Trap Gunner,/games/trap-gunner/ps-3864,PlayStation,8.9,Action,N,1998,9,28
+978,Unbearable,Deep Sea Trophy Fishing,/games/deep-sea-trophy-fishing/pc-10224,PC,1.8,Hunting,N,1998,9,28
+979,Great,Unholy War,/games/unholy-war/ps-3911,PlayStation,8.0,Strategy,N,1998,9,28
+980,Great,Madden NFL '99,/games/madden-football/n64-3844,Nintendo 64,8.5,Sports,N,1998,9,25
+981,Mediocre,Industry Giant [1998],/games/industry-giant-1998/pc-3745,PC,5.0,Strategy,N,1998,8,27
+982,Great,Madden NFL '99,/games/madden-football/ps-3840,PlayStation,8.5,Sports,N,1998,8,26
+983,Great,Turbo Prop Racing,/games/turbo-prop-racing/ps-3962,PlayStation,8.0,Racing,N,1998,8,24
+984,Great,Tomba!,/games/tomba/ps-2260,PlayStation,8.7,Platformer,Y,1998,8,24
+985,Great,Elemental Gearbolt,/games/elemental-gearbolt/ps-2244,PlayStation,8.3,Action,Y,1998,8,24
+986,Good,Azure Dreams,/games/azure-dreams/ps-2224,PlayStation,7.0,RPG,N,1998,8,24
+987,Painful,Spice World,/games/spice-world/ps-3954,PlayStation,2.0,Action,N,1998,8,24
+988,Great,Gex: Enter the Gecko,/games/gex-64-enter-the-gecko/ps-2061,PlayStation,8.0,Platformer,N,1998,8,23
+989,Great,Need for Speed III: Hot Pursuit,/games/need-for-speed-iii-hot-pursuit/ps-2231,PlayStation,8.0,Racing,Y,1998,8,23
+990,Great,Moto Racer 2,/games/moto-racer-2/ps-3898,PlayStation,8.7,Racing,Y,1998,9,18
+991,Great,Circuit Breakers [1998],/games/circuit-breakers/ps-3943,PlayStation,8.0,Racing,N,1998,9,18
+992,Amazing,Tenchu: Stealth Assassins,/games/tenchu-shinobi-hyakusen/ps-2332,PlayStation,9.0,Action,Y,1998,9,18
+993,Great,G Darius,/games/g-darius/ps-3895,PlayStation,8.0,Shooter,N,1998,9,17
+994,Okay,Bomberman Hero,/games/bomberman-hero/n64-3781,Nintendo 64,6.0,Platformer,N,1998,9,16
+995,Amazing,Einhander,/games/einhander/ps-2048,PlayStation,9.0,Shooter,Y,1998,8,23
+996,Amazing,Gran Turismo [1998],/games/gran-turismo-1998/ps-2226,PlayStation,9.5,Racing,Y,1998,8,23
+997,Amazing,Tekken 3,/games/tekken-3/ps-2294,PlayStation,9.3,Fighting,Y,1998,8,23
+998,Okay,Vangers,/games/vangers/pc-3628,PC,6.7,Action,N,1998,8,18
+999,Great,Mortal Kombat 4,/games/mortal-kombat-4/pc-3940,PC,8.0,Fighting,N,1998,8,18
+1000,Okay,Twisted Edge Extreme Snowboading,/games/twisted-edge-extreme-snowboading/n64-2007,Nintendo 64,6.8,Sports,N,1998,11,13

@@ -23,13 +23,18 @@ def readVideoGames():
     maxRank = csv["Rank"].max()
 
     vgDAO = VideoGameSalesDAO()
-    for i in range(maxRank):
+    print(len(csv))
+    for i in range(maxRank-1):
 
         frame = csv.loc[i]
+
         rank = int(frame["Rank"])
         name = str(frame["Name"])
         platform = str(frame["Platform"])
-        year = int(frame["Year"])
+        try:
+            year = int(frame["Year"])
+        except:
+            year = str(frame["Year"])
         genre = str(frame["Genre"])
         publisher = str(frame["Publisher"])
         naSales = float(frame["NA_Sales"])
