@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import Filter from './Filter';
 
 
-const REGION_OPTIONS = ["","Global Sales", "Japan Sales", "North America Sales", "European Sales"];
+const REGION_OPTIONS = ["Global Sales", "Japan Sales", "North America Sales", "European Sales","Other"];
 
 export default class RegionFilter extends Component {
 
@@ -19,7 +19,7 @@ export default class RegionFilter extends Component {
         this.setState({
             value: e.target.value,
         });
-        this.props.handleChange(this.state.value);
+        this.props.handleChange(e.target.value);
     }
 
     createOptionsList(){

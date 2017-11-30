@@ -18,6 +18,7 @@ export default class Chart extends Component {
             data: [],
             dataTable: null,
             filterValues: [''],
+            updateData: false,
         };
         google.charts.load('current', {packages: ['corechart']});
 
@@ -33,7 +34,7 @@ export default class Chart extends Component {
     }
 
     handleRegionChange(region){
-        this.state.dataTable.insertColumn(1,'number',region);
+        console.log("changing region to "+region);
         this.state.filterValues[0] = region;
 
         let data = this.state.dataTable;
@@ -43,6 +44,7 @@ export default class Chart extends Component {
             dataTable: data,
             filterValues: vals,
             salesRegion: region,
+            updateData: false,
         });
     }
 
@@ -55,20 +57,22 @@ export default class Chart extends Component {
                 this.setState({
                     isLoaded:true,
                     data: result.scoreSales,
+
                 });
             },
 
             (error) => {
                 this.setState({
                     isLoaded: true,
-                    error: error
+                    error: error,
+                    initialLoad:true,
                 });
             }
         );
     }
 
     handleSubmit(){
-        this.setState({isLoaded:false});
+
         fetch("/filterData", {
             method: 'POST',
             body: JSON.stringify({'filters':this.state.filterValues}),
@@ -79,6 +83,7 @@ export default class Chart extends Component {
                 this.setState({
                     isLoaded: true,
                     data: response.filteredData,
+                    updateData:true,
                 });
             },
 
@@ -89,12 +94,14 @@ export default class Chart extends Component {
                 });
             },
         );
+
     }
+
 
 
     render(){
         if (this.state.error){
-            return <div>Error: {error.message}</div>;
+            return <div>Error: {this.state.error.message}</div>;
         }
         else if(!this.state.isLoaded){
             return <div>Loading....</div>
@@ -110,7 +117,12 @@ export default class Chart extends Component {
             </div>
         );
     }
-
+    componentDidUpdate(){
+        console.log(this.state.salesRegion);
+        if (this.state.updateData){
+            this.drawChart();
+        }
+    }
     // non Component functions
     drawChart(){
       // Define the chart to be drawn.
@@ -120,13 +132,13 @@ export default class Chart extends Component {
       data.addRows(this.state.data);
 
       let options = {
-          title: "IGN Reviews vs. Global Video Game Sales",
+          title: "Video Games' IGN Reviews vs. "+this.state.salesRegion,
           hAxis: {title:"IGN Review Score"},
-          vAxis: {title:"Global Sales (in millions)"},
+          vAxis: {title:this.state.salesRegion+" (in millions)"},
           legend: 'none',
           trendlines: {0:{}},
       };
-      this.setState({dataTable:data});
+      // this.setState({dataTable:data});
       // Instantiate and draw the chart.
       let chart = new google.visualization.ScatterChart(document.getElementById('chart'));
       chart.draw(data, options);

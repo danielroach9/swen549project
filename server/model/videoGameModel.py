@@ -48,14 +48,14 @@ class VideoGameModel(object):
         return self.publisher
 
     def getNaSales(self):
-        return self.naSales * self.ONE_MILLION
+        return self.naSales
 
     def getEuSales(self):
-        return self.euSales * self.ONE_MILLION
-    def getJpSales(self):
-        return self.jpSales * self.ONE_MILLION
+        return self.euSales
+    def getJapSales(self):
+        return self.jpSales
     def getOtherSales(self):
-        return self.otherSales * self.ONE_MILLION
+        return self.otherSales
 
     def getGlobalSales(self):
         return self.globalSales
