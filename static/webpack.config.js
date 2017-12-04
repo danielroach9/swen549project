@@ -17,14 +17,22 @@ const config = {
     },
     module: {
       rules: [
-        {
-          test: /\.jsx?$/,
-          exclude: /node_modules/,
-          loader: 'babel-loader',
-          query: {
-              presets: ['react']
-          }
-        }
+          {
+              test: /\.jsx?$/,
+              exclude: /node_modules/,
+              loader: 'babel-loader',
+              query: {
+                  presets: ['react']
+              }
+          },
+          {
+              test: /\.css$/,
+              loader: [ 'style-loader', 'css-loader' ]
+          },
+          {
+              test: /\.(png|woff|woff2|eot|ttf|svg)$/,
+              loader: 'url-loader?limit=100000'
+          },
       ]
     }
 };

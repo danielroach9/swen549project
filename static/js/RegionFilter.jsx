@@ -15,21 +15,23 @@ export default class RegionFilter extends Component {
     }
 
     handleChange(e){
-        e.preventDefault();
+
+        console.log("here");
         this.setState({
             value: e.target.value,
         });
+        console.log(e.target.value);
         this.props.handleChange(e.target.value);
     }
 
     createOptionsList(){
         return REGION_OPTIONS.map( ( option, idx ) => {
-            return <option key={idx}> {option} </option>
+            return <option key={idx} value={option}> {option} </option>
         });
     }
 
     render(){
         let optTags = this.createOptionsList();
-        return <Filter options={optTags} label={"Region Sales"} handleChange={this.handleChange}/>;
+        return <Filter options={optTags} label={"Region Sales"} value={this.state.value} handleChange={this.handleChange}/>;
     }
 }

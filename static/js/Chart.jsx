@@ -110,10 +110,14 @@ export default class Chart extends Component {
 
         }
         return (
-            <div>
+            <div className="container">
                 <div id="chart"></div>
-                <RegionFilter handleChange={this.handleRegionChange}/>
-                <SubmitButton handleSubmit={this.handleSubmit}/>
+                <div className="row">
+                    <RegionFilter handleChange={this.handleRegionChange}/>
+                </div>
+                <div className="row">
+                    <SubmitButton handleSubmit={this.handleSubmit}/>
+                </div>
             </div>
         );
     }

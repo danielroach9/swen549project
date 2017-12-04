@@ -10,6 +10,6 @@ export default class Button extends Component {
 
 
     render(){
-        return <button onClick={this.props.handleSubmit}>{this.props.buttonText}</button>
+        return <a className="waves-effect waves-light btn" onClick={this.props.handleSubmit}>{this.props.buttonText}</a>;
     }
 }

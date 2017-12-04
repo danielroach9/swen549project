@@ -6,5 +6,5 @@
     Author - Philip Bedward, Daniel Roach, Sadaf Chowdhury, Daniel Darius Cox
 """
 from flask import Flask
-APP = Flask(__name__,static_folder="../client/dist",template_folder="../client")
+APP = Flask(__name__,static_folder="../static/dist",template_folder="../static")
 
