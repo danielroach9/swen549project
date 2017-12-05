@@ -8,6 +8,6 @@ export default class SubmitButton extends Component {
     }
 
     render(){
-        return <Button handleSubmit={this.props.handleSubmit} buttonText={"Submit"}/>
+        return <Button className="col s4 offset-s5" handleSubmit={this.props.handleSubmit} buttonText={"Submit"}/>
     }
 }

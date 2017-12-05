@@ -15,13 +15,11 @@ export default class RegionFilter extends Component {
     }
 
     handleChange(e){
-
-        console.log("here");
         this.setState({
             value: e.target.value,
         });
-        console.log(e.target.value);
-        this.props.handleChange(e.target.value);
+
+        this.props.handleChange( 0, e.target.value );
     }
 
     createOptionsList(){
@@ -32,6 +30,6 @@ export default class RegionFilter extends Component {
 
     render(){
         let optTags = this.createOptionsList();
-        return <Filter options={optTags} label={"Region Sales"} value={this.state.value} handleChange={this.handleChange}/>;
+        return <Filter options={optTags} label={"Region Sales"} refVal={"region"} value={this.state.value} handleChange={this.handleChange}/>;
     }
 }

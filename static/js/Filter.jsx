@@ -1,5 +1,8 @@
 import React, {Component} from 'react';
-import $ from "jquery"
+import ReactDOM from 'react-dom';
+import $ from 'jquery';
+
+
 export default class Filter extends Component {
 
     constructor(props){
@@ -13,15 +16,14 @@ export default class Filter extends Component {
     }
 
     componentDidMount(){
-        $(".select").change(this.change);
+        $(ReactDOM.findDOMNode(this.refs[this.props.refVal])).material_select();
+        $(ReactDOM.findDOMNode(this.refs[this.props.refVal])).change(this.change);
     }
 
     render(){
-        console.log(this.props.value);
         return (
-
-            <div className="input-field col s4">
-                <select className="select" value={this.state.value} onChange={this.change.bind(this)}>
+            <div className="input-field col s3 offset-s1">
+                <select className="select" ref={this.props.refVal} value={this.state.value} onChange={this.change.bind(this)}>
                     {this.props.options}
                 </select>
                 <label>{this.props.label}</label>

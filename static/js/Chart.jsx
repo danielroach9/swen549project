@@ -1,12 +1,14 @@
 import React, {Component} from "react";
 import RegionFilter from './RegionFilter';
+import GenreFilter from './GenreFilter';
+import ScoreFilter from './ScoreFilter'
 import SubmitButton from './SubmitButton';
+import Spinner from './Spinner';
 
+import $ from "jquery";
 export default class Chart extends Component {
 
     // override Component class functions
-
-
 
     constructor(props){
         super(props);
@@ -16,40 +18,51 @@ export default class Chart extends Component {
             isLoaded: false,
             salesRegion: "Global Sales",
             data: [],
+            genres: [],
             dataTable: null,
-            filterValues: [''],
+            filterValues: ['','',''],
             updateData: false,
         };
         google.charts.load('current', {packages: ['corechart']});
 
         this.handleRegionChange = this.handleRegionChange.bind(this);
         this.handleSubmit = this.handleSubmit.bind(this);
+        this.drawChart = this.drawChart.bind(this);
 
     }
 
     componentDidMount(){
-        google.charts.setOnLoadCallback(this.drawChart.bind(this));
         this.fetchData();
 
     }
 
-    handleRegionChange(region){
-        console.log("changing region to "+region);
-        this.state.filterValues[0] = region;
+    handleRegionChange(idx,region){
+        console.log("index is " +idx);
+        this.state.filterValues[idx] = region;
 
         let data = this.state.dataTable;
         let vals = this.state.filterValues;
+        if( idx === 0){
+            this.setState({
+                dataTable: data,
+                filterValues: vals,
+                salesRegion: region,
+                updateData: false,
+            });
+        }
+        else {
+            this.setState({
+                dataTable: data,
+                filterValues: vals,
+                updateData: false,
+            });
+        }
 
-        this.setState({
-            dataTable: data,
-            filterValues: vals,
-            salesRegion: region,
-            updateData: false,
-        });
     }
 
 
     fetchData(){
+        console.log("fetching");
         fetch("/globalData")
         .then(result => result.json())
         .then(
@@ -57,15 +70,16 @@ export default class Chart extends Component {
                 this.setState({
                     isLoaded:true,
                     data: result.scoreSales,
-
+                    genres: result.genres,
+                    updateData: false,
                 });
+                console.log("done");
             },
 
             (error) => {
                 this.setState({
                     isLoaded: true,
                     error: error,
-                    initialLoad:true,
                 });
             }
         );
@@ -104,29 +118,38 @@ export default class Chart extends Component {
             return <div>Error: {this.state.error.message}</div>;
         }
         else if(!this.state.isLoaded){
-            return <div>Loading....</div>
+            return <Spinner/>;
         }
-        else{
+        else {
 
+            return (
+                <div className="container">
+                    <div id="chart"></div>
+                    <div className="row">
+                        <RegionFilter handleChange={this.handleRegionChange}/>
+                        <GenreFilter genres={this.state.genres} handleChange={this.handleRegionChange}/>
+                        <ScoreFilter handleChange={this.handleRegionChange}/>
+                    </div>
+                    <div className="row">
+                        <SubmitButton handleSubmit={this.handleSubmit}/>
+                    </div>
+
+                </div>
+            );
         }
-        return (
-            <div className="container">
-                <div id="chart"></div>
-                <div className="row">
-                    <RegionFilter handleChange={this.handleRegionChange}/>
-                </div>
-                <div className="row">
-                    <SubmitButton handleSubmit={this.handleSubmit}/>
-                </div>
-            </div>
-        );
     }
+
     componentDidUpdate(){
-        console.log(this.state.salesRegion);
         if (this.state.updateData){
+            console.log("updated");
             this.drawChart();
         }
+        else{
+            google.charts.setOnLoadCallback(this.drawChart);
+        }
+
     }
+
     // non Component functions
     drawChart(){
       // Define the chart to be drawn.
@@ -142,8 +165,9 @@ export default class Chart extends Component {
           legend: 'none',
           trendlines: {0:{}},
       };
-      // this.setState({dataTable:data});
+
       // Instantiate and draw the chart.
+      console.log(document.getElementById("chart"));
       let chart = new google.visualization.ScatterChart(document.getElementById('chart'));
       chart.draw(data, options);
     }

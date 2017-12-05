@@ -16,6 +16,8 @@ def helloWorld():
 @APP.route("/globalData")
 def retrieveScoresAndSales():
     scoreSales = []
+    genres1 = set()
+    genres2 = set()
     ignDao = IGNReviewDAO()
     vgDao = VideoGameSalesDAO()
     videoGames = vgDao.selectAll()
@@ -43,10 +45,12 @@ def retrieveScoresAndSales():
 
         if i < len(reviewTitles) and j < len(vgTitles):
             col = [reviews[i].getScore(),videoGames[j].getGlobalSales()]
+            genres1.add(reviews[i].getGenre())
+            genres2.add(videoGames[i].getGenre())
             scoreSales.append(col)
 
 
-    context = {"scoreSales":scoreSales}
+    context = {"scoreSales":scoreSales,"genres":list(genres1.intersection(genres2))}
     return dumps(context)
 
 @APP.route("/filterData",methods=["POST"])
@@ -54,11 +58,11 @@ def getfilteredData():
     data = loads(request.get_data())
     filters = data.get("filters")
     print(filters)
-    filteredData = filterRegionData(filters[0].strip("Sales").strip())
+    filteredData = filterData(filters[0].strip("Sales").strip())
 
     return dumps({"filteredData":filteredData})
 
-def filterRegionData(region):
+def filterData(region):
     GLOBAL = "global"
     JAPAN = "japan"
     EURO = "european"
