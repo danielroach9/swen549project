@@ -20,7 +20,7 @@ export default class GenreFilter extends Component {
     }
 
     createOptionTags(){
-        let options = [<option key={0} value="" selected>All</option>];
+        let options = [<option key={0} value="All" selected>All</option>];
         options.push(this.props.genres.map( (option,idx) => {
             return <option key={idx+1} value={option}> {option} </option>
         }));

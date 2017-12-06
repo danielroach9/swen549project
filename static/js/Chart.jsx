@@ -20,7 +20,7 @@ export default class Chart extends Component {
             data: [],
             genres: [],
             dataTable: null,
-            filterValues: ['','',''],
+            filterValues: ['Global Sales','All','All'],
             updateData: false,
         };
         google.charts.load('current', {packages: ['corechart']});
@@ -63,10 +63,12 @@ export default class Chart extends Component {
 
     fetchData(){
         console.log("fetching");
-        fetch("/globalData")
-        .then(result => result.json())
-        .then(
-            (result) => {
+
+        $.ajax({
+            url: "/globalData",
+            success: (result) => {
+                result = JSON.parse(result);
+
                 this.setState({
                     isLoaded:true,
                     data: result.scoreSales,
@@ -75,14 +77,15 @@ export default class Chart extends Component {
                 });
                 console.log("done");
             },
-
-            (error) => {
+            error: (error) => {
                 this.setState({
                     isLoaded: true,
                     error: error,
                 });
-            }
-        );
+            },
+
+        });
+
     }
 
     handleSubmit(){
@@ -94,6 +97,7 @@ export default class Chart extends Component {
         .then( response => response.json() )
         .then(
             (response) => {
+                console.log(response);
                 this.setState({
                     isLoaded: true,
                     data: response.filteredData,
@@ -124,7 +128,9 @@ export default class Chart extends Component {
 
             return (
                 <div className="container">
-                    <div id="chart"></div>
+                    <div className="row">
+                        <div id="chart" style={{height:"550px",width:"950px"}}></div>
+                    </div>
                     <div className="row">
                         <RegionFilter handleChange={this.handleRegionChange}/>
                         <GenreFilter genres={this.state.genres} handleChange={this.handleRegionChange}/>
@@ -154,20 +160,35 @@ export default class Chart extends Component {
     drawChart(){
       // Define the chart to be drawn.
       let data = new google.visualization.DataTable();
-      data.addColumn('number', 'Score');
-      data.addColumn('number', this.state.salesRegion);
-      data.addRows(this.state.data);
 
       let options = {
           title: "Video Games' IGN Reviews vs. "+this.state.salesRegion,
-          hAxis: {title:"IGN Review Score"},
+          hAxis: {title:"IGN Review Score", minValue:0, maxValue:10},
           vAxis: {title:this.state.salesRegion+" (in millions)"},
           legend: 'none',
           trendlines: {0:{}},
       };
 
+      data.addColumn('number', 'Score');
+      data.addColumn('number', this.state.salesRegion);
+      if (this.state.data.length > 0){
+
+          data.addRows(this.state.data);
+      }
+      else{
+          console.log("here");
+          data.addRows([[0,0]]);
+          options.series = {
+              0: {
+                  color: 'transparent'
+              }
+          };
+      }
+
+
+
+
       // Instantiate and draw the chart.
-      console.log(document.getElementById("chart"));
       let chart = new google.visualization.ScatterChart(document.getElementById('chart'));
       chart.draw(data, options);
     }

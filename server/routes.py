@@ -16,8 +16,8 @@ def helloWorld():
 @APP.route("/globalData")
 def retrieveScoresAndSales():
     scoreSales = []
-    genres1 = set()
-    genres2 = set()
+    # genres1 = set()
+    genres = set()
     ignDao = IGNReviewDAO()
     vgDao = VideoGameSalesDAO()
     videoGames = vgDao.selectAll()
@@ -45,12 +45,12 @@ def retrieveScoresAndSales():
 
         if i < len(reviewTitles) and j < len(vgTitles):
             col = [reviews[i].getScore(),videoGames[j].getGlobalSales()]
-            genres1.add(reviews[i].getGenre())
-            genres2.add(videoGames[i].getGenre())
+            # genres1.add(reviews[i].getGenre())
+            genres.add(videoGames[i].getGenre())
             scoreSales.append(col)
 
 
-    context = {"scoreSales":scoreSales,"genres":list(genres1.intersection(genres2))}
+    context = {"scoreSales":scoreSales,"genres":list(genres)}
     return dumps(context)
 
 @APP.route("/filterData",methods=["POST"])
@@ -58,20 +58,27 @@ def getfilteredData():
     data = loads(request.get_data())
     filters = data.get("filters")
     print(filters)
-    filteredData = filterData(filters[0].strip("Sales").strip())
+    region = filters[0].strip("Sales").strip()
+    genre = filters[1]
+    score = filters[2]
+    filteredData = filterData(region,genre,score)
 
     return dumps({"filteredData":filteredData})
 
-def filterData(region):
-    GLOBAL = "global"
+def filterData(region,genre,score):
+
     JAPAN = "japan"
     EURO = "european"
     NAM = "north america"
-
+    OTHER = "other"
+    ALL = "all"
     methodName = ""
     region = region.lower()
-    if region == GLOBAL:
-        methodName = "getGlobalSales"
+
+    allScores = False
+    allGenres = False
+    if region == OTHER:
+        methodName = "getOtherSales"
     elif region == JAPAN:
         methodName = "getJapSales"
     elif region == EURO:
@@ -79,12 +86,30 @@ def filterData(region):
     elif region == NAM:
         methodName = "getNaSales"
     else:
-        methodName = "getOtherSales"
+        methodName = "getGlobalSales"
 
-    return getRegionData(methodName)
+    if genre.lower() == ALL:
+        allGenres = True
+    try:
+        score = int(score)
+    except Exception as e:
+        allScores = True
+    print(allScores)
+    print(allGenres)
+    if allScores and allGenres:
+        return getRegionData(methodName)
 
+    elif not allScores and allGenres:
+        print("here")
+        return getRegionData(methodName,score=score)
+    elif allScores and not allGenres:
+        return getRegionData(methodName,genre=genre)
+    else:
+        return getRegionData(methodName,genre,score)
 
-def getRegionData(regionFunc):
+#modify this method to work with score and genre
+def getRegionData(regionFunc,genre=None,score=None):
+    print("enter function")
     scoreSales = []
     ignDao = IGNReviewDAO()
     vgDao = VideoGameSalesDAO()
@@ -111,8 +136,34 @@ def getRegionData(regionFunc):
             j += 1
 
         if i < len(reviewTitles) and j < len(vgTitles):
-            func = getattr(videoGames[j], regionFunc)
-            col = [reviews[i].getScore(), func()]
-            scoreSales.append(col)
+
+            salesFunc = getattr(videoGames[j], regionFunc)
+            currScore = reviews[i].getScore()
+
+            print("param : " + str(score) + " game score " + str(currScore))
+            scoreToAdd = None
+            numSales = None
+            if score == None and genre == None:
+                print("just sales")
+                scoreToAdd = currScore
+                numSales = salesFunc()
+            if score != None and genre != None:
+                print("score and genre")
+                if videoGames[j].getGenre() == genre:
+                    if score == currScore:
+                        scoreToAdd = currScore
+                        numSales = salesFunc()
+            elif score != None and score == currScore:
+                print("score")
+                scoreToAdd = currScore
+                numSales = salesFunc()
+            elif genre != None and genre == videoGames[j].getGenre():
+                print("genre")
+                scoreToAdd = currScore
+                numSales = salesFunc()
+
+            if scoreToAdd and numSales:
+                col = [scoreToAdd, numSales]
+                scoreSales.append(col)
 
     return scoreSales
